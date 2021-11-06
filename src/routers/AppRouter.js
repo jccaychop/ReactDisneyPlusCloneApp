@@ -1,23 +1,36 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Disney, Home, Login, Marvel, Media, Movies, NatGeo, Pixar, Series, Signup, StarWars } from '../pages';
+import { setBrandListAction, startFetching } from '../actions/brand';
+import { Home, Login, Main, Signup } from '../pages';
+import { getAllBrands } from '../utils/brandProcessData';
+import BrandRouter from './BrandRouter';
+import MoviesRouter from './MoviesRouter';
+import SeriesRouter from './SeriesRouter';
 
 const AppRouter = () => {
+
+    const langSelected = useSelector(state => state.lang.language);
+    const brandContent = useSelector(state => state.brand.brandList);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(startFetching());
+        getAllBrands(brandContent, langSelected).then(data => {
+            dispatch(setBrandListAction(data));
+        });
+    }, [langSelected]);
+
     return (
         <Router>
             <Switch>
+                <Route path="/brand" component={BrandRouter} />
+                <Route path="/series" component={SeriesRouter} />
+                <Route path="/movies" component={MoviesRouter} />
                 <Route path="/signup" component={Signup} />
                 <Route path="/login" component={Login} />
-                <Route path="/series/:mediaID" component={Media} />
-                <Route path="/movies/:mediaID" component={Media} />
-                <Route exact path="/series" component={Series} />
-                <Route exact path="/movies" component={Movies} />
-                <Route path="/brand/disney" component={Disney} />
-                <Route path="/brand/marvel" component={Marvel} />
-                <Route path="/brand/natgeo" component={NatGeo} />
-                <Route path="/brand/pixar" component={Pixar} />
-                <Route path="/brand/starwars" component={StarWars} />
-                <Route exact path="/" component={Home} />
+                <Route path="/home" component={Home} />
+                <Route exact path="/" component={Main} />
             </Switch>
         </Router>
     )

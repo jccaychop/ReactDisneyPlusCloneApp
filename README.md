@@ -12,6 +12,7 @@
 - validator: [validator](https://www.npmjs.com/package/validator)
 - react-router-dom: [react-router-dom](https://reactrouter.com/web/guides/quick-start)
 - @n8tb1t/use-scroll-position: [@n8tb1t/use-scroll-position](https://www.npmjs.com/package/@n8tb1t/use-scroll-position)
+- underscore: [underscore](http://underscorejs.org/)
 
 
 
@@ -26,6 +27,7 @@ npm install --save styled-components
 npm install validator
 npm install react-router-dom
 npm install @n8tb1t/use-scroll-position
+npm install underscore
 
 npm install axios normalize.css react-multi-carousel react-player redux react-redux redux-thunk validator react-router-dom
 ```

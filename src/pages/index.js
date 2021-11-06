@@ -9,3 +9,4 @@ export { default as Login } from './login';
 export { default as Series } from './series';
 export { default as Movies } from './movies';
 export { default as Media } from './media';
+export { default as Main } from './main';
