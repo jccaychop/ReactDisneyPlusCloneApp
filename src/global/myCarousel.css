@@ -1,0 +1,55 @@
+.collection-carousel {
+  overflow: visible;
+  outline: none;
+}
+
+.season-carousel{
+  overflow: visible;
+  outline: none;
+
+  /* prueba */
+  position: relative;
+}
+
+.react-multi-carousel-item--active {
+  opacity: 1 !important;
+  outline: none;
+  transition: all 450ms linear 0s;
+}
+
+.react-multi-carousel-item--active > div > a > img:hover {
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+  transform: scale(1.08);
+  outline: none;
+  border: 4.5px solid var(--gray-4);
+}
+
+.react-multiple-carousel__arrow--right {
+  right: calc(-3%);
+}
+
+.react-multiple-carousel__arrow--left {
+  left: calc(-4%);
+}
+
+.react-multiple-carousel__arrow {
+  background-color: transparent;
+}
+
+.react-multiple-carousel__arrow:hover {
+  background-color: transparent;
+}
+
+.react-multiple-carousel__arrow::before {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* modificaciones SEASON*/
+
+/* .react-multi-carousel-item--active > div > div > img:hover {
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+  transform: scale(1.08);
+  outline: none;
+  border: 4.5px solid var(--gray-4);
+} */

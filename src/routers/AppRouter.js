@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { setBrandListAction, startFetching } from '../actions/brand';
+import { finishFetching, setBrandListAction, startFetching } from '../actions/brand';
 import { Home, Login, Main, Signup } from '../pages';
 import { getAllBrands } from '../utils/brandProcessData';
 import BrandRouter from './BrandRouter';
@@ -19,7 +19,9 @@ const AppRouter = () => {
         getAllBrands(brandContent, langSelected).then(data => {
             dispatch(setBrandListAction(data));
         });
-    }, [langSelected]);
+        dispatch(finishFetching());
+        console.log("APP ROUTER GET ALL BRANDS EJECUTE");
+    }, [langSelected, dispatch]);
 
     return (
         <Router>

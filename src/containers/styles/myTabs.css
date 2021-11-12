@@ -1,0 +1,88 @@
+.react-tabs {
+  color: var(--white);
+}
+
+.react-tabs__tab {
+  padding-left: 0;
+  margin-right: 25px;
+  background-color: transparent;
+  color: var(--white);
+  padding-bottom: 15px;
+  border: none;
+  margin-bottom: -10px;
+  outline: none;
+}
+
+.react-tabs__tab:hover {
+  border-bottom: 3px solid #cacaca;
+}
+
+.react-tabs__tab-list {
+  /* color: #c3c3c4; */
+  border-bottom: 2px solid rgba(249, 249, 249, 0.2);
+  padding-bottom: 15px;
+  outline: none;
+}
+
+.react-tabs__tab-list li {
+  color: #c3c3c4;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: initial;
+}
+
+.react-tabs__tab--selected {
+  background-color: transparent;
+  color: var(--white) !important;
+  padding-bottom: 15px;
+  border: none;
+  border-bottom: 3px solid var(--white);
+  margin-bottom: -10px;
+  outline: none;
+}
+
+.react-tabs__tab--selected:hover {
+  border-bottom: 3px solid var(--white);
+}
+
+/**  -------- CUSTOM EPISODES--------- */
+
+.my_react-tabs {
+  -webkit-tap-highlight-color: transparent;
+  /* overflow: hidden; */
+  z-index: 100;
+}
+
+.my_react-tabs__tab-list {
+  /* border-bottom: 1px solid #aaa; */
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.my_react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 0;
+  margin-right: 40px;
+  cursor: pointer;
+  color: #c3c3c4;
+}
+
+.my_react-tabs__tab--selected {
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.my_react-tabs__tab--selected:hover {
+  border: none;
+}
+
+.my_react-tabs__tab-panel{
+  /* overflow: visible; */
+}

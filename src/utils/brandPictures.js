@@ -2003,3 +2003,11 @@ export const pictureStarWars = {
         backdrop: "/2703021E392DCD2D40A653E74B4AD7BDB3BF6381C3E9ED38C140907E782A0FDF/scale?width=1440&aspectRatio=1.78&format=jpeg",
     },
 };
+
+export const pictureTotalBrands = {
+    ...pictureMarvel,
+    ...pictureDisney,
+    ...picturePixar,
+    ...pictureNatGeo,
+    ...pictureStarWars,
+}

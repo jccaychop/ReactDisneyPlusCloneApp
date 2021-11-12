@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Avenir Black";
+  src: url(https://prod-static.disney-plus.net/assets/fonts/avenir/Avenir-Black/Avenir-Black-03.be64469f1d12ed2ad36f1fd575e9af02.woff2)
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Book";
+  src: url(https://prod-static.disney-plus.net/assets/fonts/avenir/Avenir-Book/Avenir-Book-01.41636cf359d913529a78a8d39e2b55be.woff2)
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Heavy";
+  src: url(https://prod-static.disney-plus.net/assets/fonts/avenir/Avenir-Heavy/Avenir-Heavy-05.8c900afcd8a9418271094b90126ffa64.woff2)
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Light";
+  src: url(https://prod-static.disney-plus.net/assets/fonts/avenir/Avenir-Light/Avenir-Light-07.f3974cd611d0a51c6f3d468a8ac6a700.woff2)
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Medium";
+  src: url(https://prod-static.disney-plus.net/assets/fonts/avenir/Avenir-Medium/Avenir-Medium-09.62b6036b1b95f9f393c0e8955d72ac69.woff2)
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Roman";
+  src: url(https://prod-static.disney-plus.net/assets/fonts/avenir/Avenir-Roman/Avenir-Roman-12.8c6e15565760efae86de48644cfd9b71.woff2)
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed Bold";
+  src: url(https://prod-static.disney-plus.net/assets/fonts/avenir-next/AvenirNext-BoldCond.3d02b47bacdcbe8d3bf3f621866dd44a.woff2)
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}

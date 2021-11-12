@@ -13,6 +13,8 @@
 - react-router-dom: [react-router-dom](https://reactrouter.com/web/guides/quick-start)
 - @n8tb1t/use-scroll-position: [@n8tb1t/use-scroll-position](https://www.npmjs.com/package/@n8tb1t/use-scroll-position)
 - underscore: [underscore](http://underscorejs.org/)
+- animate.css: [animate.css](https://animate.style/)
+- react-tabs: [react-tabs](https://www.npmjs.com/package/react-tabs)
 
 
 
@@ -28,6 +30,8 @@ npm install validator
 npm install react-router-dom
 npm install @n8tb1t/use-scroll-position
 npm install underscore
+npm install animate.css --save
+npm install --save react-tabs
 
 npm install axios normalize.css react-multi-carousel react-player redux react-redux redux-thunk validator react-router-dom
 ```

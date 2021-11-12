@@ -8,15 +8,15 @@ export const starWarsCollection = [
         list: [1893, 1894, 11, 1891, 1892, 140607, 181808, 181812, 857702, 330459, 348350, 825647, 732670, 1884, 1895],
     },
     {
-        category: ['Cortos y especiales', 'Specials'],
+        category: ['Cortos y especiales', 'Shorts and Specials'],
         list: [71412, 825647, 63722, 60554, 105106, 66837, 83558, 66487, 732670],
     },
     {
-        category: ['Colección Darth Vader', 'Darth Vader Collection'],
+        category: ['Colección Darth Vader', 'The Darth Vader Collection'],
         list: [1895, 330459, 11, 1892, 60554, 1891, 63722],
     },
     {
-        category: ['Star Wars a lo largo de los años', 'Star Wars throughout the years'],
+        category: ['Star Wars a lo largo de los años', 'Star Wars Through the Years'],
         list: [11, 1891, 1892, 1884, 1893, 1894, 1895, 4194, 60554, 140607, 63722, 330459, 66837, 181808, 71412, 105106, 348350, 83558, 181812, 82856, 732670, 101978, 825647, 114478, 105971, 124734, 135211],
     }
 ];

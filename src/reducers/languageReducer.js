@@ -1,7 +1,7 @@
 import { types } from "../types/types";
 
 const initialState = {
-    language: 'es-MX',
+    language: localStorage.getItem('language') === null ? 'es-MX' : localStorage.getItem('language'),
     loading: false,
 };
 

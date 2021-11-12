@@ -54,7 +54,6 @@ export const brandReducer = (state = initialState, action) => {
         case types.brandSetBrandList:
             return {
                 ...state,
-                loading: false,
                 brandList: action.payload,
             }
 
