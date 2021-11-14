@@ -40,4 +40,12 @@ export const GlobalStyles = createGlobalStyle`
         color: var(--white);
         font-size: 16px;
     }
+
+    input:-webkit-autofill,
+    textarea:-webkit-autofill,
+    select:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 1000px var(--black-3) inset !important;
+        box-shadow: 0 0 0 1000px var(--black-3) inset !important;
+        -webkit-text-fill-color: white !important;
+    }
 `;

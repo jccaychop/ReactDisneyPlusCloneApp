@@ -1,6 +1,7 @@
-export { SVGhome, SVGsearch, SVGwatchlist, SVGoriginals, SVGmovies, SVGseries, SVGgroupWatch, SVGplay } from './svg';
+export { SVGhome, SVGsearch, SVGwatchlist, SVGoriginals, SVGmovies, SVGseries, SVGgroupWatch, SVGplay, SVGcheckbox } from './svg';
 export { ButtonLoginV1, ButtonSignUpV1, ButtonSignUpV2 } from './buttons';
 
+export { AgreementES } from './agreement';
 export { default as Brand } from './brand';
 export { default as Features } from './features';
 export { default as Footer } from './footer';
@@ -21,3 +22,4 @@ export { default as Collection } from './collection';
 export { default as Media } from './media';
 export { default as Detail } from './detail';
 export { default as Season } from './season';
+export { default as Signup } from './signup';

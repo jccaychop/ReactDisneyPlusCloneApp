@@ -5,7 +5,7 @@ import './styles/myTabs.css';
 import DetailContainer from './detail';
 import SeasonContainer from './season';
 
-const TabContainer = ({ dataUsed, langSelected }) => {
+const TabContainer = ({ dataUsed, mediaTYPE, langSelected }) => {
 
     const [select, setSelect] = useState({
         key: "",
@@ -22,44 +22,50 @@ const TabContainer = ({ dataUsed, langSelected }) => {
     return (
         <Tabs>
             <TabList>
-                <Tab>EPISODIOS</Tab>
+                {(mediaTYPE === "series") && (<Tab>EPISODIOS</Tab>)}
                 <Tab>SUGERENCIAS</Tab>
                 <Tab>EXTRAS</Tab>
                 <Tab>DETALLES</Tab>
             </TabList>
 
-            <TabPanel>
-                <Tabs className="my_react-tabs">
-                    <TabList className="my_react-tabs__tab-list">
-                        {
-                            dataUsed.episodeList.map(element => {
-                                return (
-                                    <Tab
-                                        key={element['_id']}
-                                        className={`my_react-tabs__tab ${select.key === element['_id'] && 'my_react-tabs__tab--selected'}`}
-                                        onClick={() => onSelect(element['_id'])}
-                                    >
-                                        {element.name}
-                                    </Tab>
-                                )
-                            })
-                        }
-                    </TabList>
+            {/* EPISODES */}
+            {
+                (mediaTYPE === "series") && (
+                    <TabPanel>
+                        <Tabs className="my_react-tabs">
+                            <TabList className="my_react-tabs__tab-list">
+                                {
+                                    dataUsed.episodeList.map(element => {
+                                        return (
+                                            <Tab
+                                                key={element['_id']}
+                                                className={`my_react-tabs__tab ${select.key === element['_id'] && 'my_react-tabs__tab--selected'}`}
+                                                onClick={() => onSelect(element['_id'])}
+                                            >
+                                                {element.name}
+                                            </Tab>
+                                        )
+                                    })
+                                }
+                            </TabList>
 
-                    {
-                        dataUsed.episodeList.map(element => {
-                            return (
-                                <TabPanel className="my_react-tabs__tab-panel" key={element['_id']}>
-                                    <SeasonContainer
-                                        episodes={element.episodes}
-                                    />
-                                </TabPanel>
-                            )
-                        })
-                    }
-                </Tabs>
-            </TabPanel>
+                            {
+                                dataUsed.episodeList.map(element => {
+                                    return (
+                                        <TabPanel className="my_react-tabs__tab-panel" key={element['_id']}>
+                                            <SeasonContainer
+                                                episodes={element.episodes}
+                                            />
+                                        </TabPanel>
+                                    )
+                                })
+                            }
+                        </Tabs>
+                    </TabPanel>
+                )
+            }
 
+            {/* SUGGESTIONS */}
             <TabPanel>
                 <p>
                     <b>Luigi</b> (<i>Japanese: ルイージ Hepburn: Ruīji, [ɾɯ.iː.dʑi̥]</i>) (<i>English: /luˈiːdʒi/;
@@ -70,6 +76,7 @@ const TabContainer = ({ dataUsed, langSelected }) => {
                 </p>
             </TabPanel>
 
+            {/* EXTRAS */}
             <TabPanel>
                 <p>
                     <b>Princess Peach</b> (<i>Japanese: ピーチ姫 Hepburn: Pīchi-hime, [piː.tɕi̥ çi̥.me]</i>)
@@ -81,8 +88,9 @@ const TabContainer = ({ dataUsed, langSelected }) => {
                 </p>
             </TabPanel>
 
+            {/* DETAILS */}
             <TabPanel>
-                <DetailContainer dataUsed={dataUsed} langSelected={langSelected} />
+                <DetailContainer dataUsed={dataUsed} mediaTYPE={mediaTYPE} langSelected={langSelected} />
             </TabPanel>
         </Tabs>
     )

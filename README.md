@@ -1,7 +1,6 @@
 # REACT DISNEY PLUS CLONE APP
 
 ### Librerias
-- axios: [axios](https://www.npmjs.com/package/axios)
 - normalize: [normalize.css](https://www.npmjs.com/package/normalize.css)
 - react-multi-carousel: [react-multi-carousel](https://www.npmjs.com/package/react-multi-carousel)
 - react-player: [react-player](https://www.npmjs.com/package/react-player)
@@ -15,11 +14,12 @@
 - underscore: [underscore](http://underscorejs.org/)
 - animate.css: [animate.css](https://animate.style/)
 - react-tabs: [react-tabs](https://www.npmjs.com/package/react-tabs)
+- truncatise: [truncatise](https://www.npmjs.com/package/truncatise)
+- firebase: [firebase](https://firebase.google.com/docs/web/setup)
 
 
 
 ```
-npm install axios
 npm install normalize.css
 npm install react-multi-carousel
 npm install react-player
@@ -32,6 +32,8 @@ npm install @n8tb1t/use-scroll-position
 npm install underscore
 npm install animate.css --save
 npm install --save react-tabs
+npm install truncatise
+npm install firebase
 
 npm install axios normalize.css react-multi-carousel react-player redux react-redux redux-thunk validator react-router-dom
 ```

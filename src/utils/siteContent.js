@@ -116,6 +116,26 @@ const langES = {
             link: "Suscribirse",
         },
     },
+    signup: {
+        step_1: {
+            id: 1,
+            step_label: "PASO 1 DE 4",
+            title: "Escribe tu correo electrónico",
+            form: {
+                placeholder: "Correo electrónico",
+                button: "Continuar",
+            },
+            offers: "¡Sí! Quiero recibir actualizaciones, ofertas especiales y otra información de Disney+ y la Familia de Compañías Walt Disney.",
+            privacy_1: "Disney usará tus datos para personalizar y mejorar tu experiencia en Disney+ y para enviarte información sobre Disney+. Puedes cambiar tus preferencias de comunicación en cualquier momento. Podemos usar tus datos tal como se describe en nuestra Política de privacidad.",
+            privacy_2: "Al hacer clic en Continuar, reconoces que has leído nuestra Política de privacidad",
+        },
+        step_2: {
+            id: 2,
+            step_label: "PASO 2 DE 4",
+            title: "Acuerdo de suscripción",
+            subscription: ``,
+        }
+    },
 };
 
 const langEN = {

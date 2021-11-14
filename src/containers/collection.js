@@ -75,12 +75,12 @@ const CollectionContainer = ({ langSelected, collection, dataList, brandPictures
                     list.map(item => {
                         const filtered = dataList.filter(sb => sb.id === item);
                         const route = filtered[0]['media_type'] === 'tv' ? 'series' : 'movies';
-                        
+
                         return (
                             <Collection.Item key={item}>
                                 <Collection.NavLink to={`/${route}/${item}`}>
                                     {
-                                        <Collection.Poster src={`${URL_PICTURE}` + brandPictures[`${item}`]['poster']} loading="lazy"/>
+                                        <Collection.Poster src={`${URL_PICTURE}` + brandPictures[`${item}`].lang[indexLang]['poster']} loading="lazy" />
                                     }
                                 </Collection.NavLink>
                             </Collection.Item>

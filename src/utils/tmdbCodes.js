@@ -65,6 +65,13 @@ export const movieCertificationUS = [
         url: "/img/scale_none.png",
     },
     {
+        certification: "",
+        meaning: "No rating information.",
+        order: 6,
+        rating: "-",
+        url: "/img/scale_none.png",
+    },
+    {
         certification: "PG",
         meaning: "Some material may not be suitable for children under 10. These films may contain some mild language, crude/suggestive humor, scary moments and/or violence. No drug content is present. There are a few exceptions to this rule. A few racial insults may also be heard.",
         order: 2,
@@ -78,6 +85,13 @@ export const serieCertificationUS = [
         certification: "NR",
         meaning: "No rating information.",
         order: 0,
+        rating: "-",
+        url: "/img/scale_none.png",
+    },
+    {
+        certification: "",
+        meaning: "No rating information.",
+        order: 7,
         rating: "-",
         url: "/img/scale_none.png",
     },
@@ -124,3 +138,8 @@ export const serieCertificationUS = [
         url: "/img/scale17.png",
     }
 ];
+
+export const closeCaption = {
+    name: "close caption",
+    url: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FAE63AC7AC11C27C949E1856CF188BF09FC20EA52AEA3B65B43C24EEB5F29BFD/scale?width=240",
+};

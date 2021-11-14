@@ -19,7 +19,7 @@ export const Multimedia = styled.div`
 `;
 
 export const Background = styled.div`
-    background-image: linear-gradient(transparent, rgb(26, 29, 41));
+    background-image: radial-gradient(farthest-side at 73% 21%, transparent, rgb(26, 29, 41));
     position: absolute;
     inset: 0px;
 `;

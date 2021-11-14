@@ -3,6 +3,7 @@ import { Season } from '../components';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import '../global/myCarousel.css';
+import 'animate.css';
 import { URL_TMDB_PICTURE } from '../environments/environments';
 
 const SeasonContainer = ({ episodes }) => {
@@ -90,7 +91,7 @@ const SeasonContainer = ({ episodes }) => {
                         return (
                             <Season.Item key={item.id}>
                                 <Season.Poster>
-                                    <Season.Image src={`${URL_TMDB_PICTURE}${item['still_path']}`} />
+                                    <Season.Image src={`${URL_TMDB_PICTURE}${item['still_path']}`} className="animate__animated animate__fadeIn"/>
                                 </Season.Poster>
                                 <Season.Title>{item.episode_number}. {item.name}</Season.Title>
                                 <Season.Text>{item.overview}</Season.Text>

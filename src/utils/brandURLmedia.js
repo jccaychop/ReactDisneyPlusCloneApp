@@ -2,30 +2,40 @@ export const brandStarWars = {
     videoURL: "https://vod-bgc-eu-west-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564677991-star-wars.mp4",
     bgURL: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A460D129719ADC85F6188F1E52255035ACF7EFF8C500DA87D702B20179633F70/scale?width=1920&aspectRatio=1.78&format=jpeg",
     logoURL: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/04BB6D7A8E43E18DB3C30E6D9916DE7F44F38C12A7B3ED6B99EDD96DF8FF7D68/scale?width=600&aspectRatio=NaN&format=png",
+    videoURLcard: "https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2020/12/17/1608229455-star-wars.mp4",
+    logoURLcard: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5A9416D67DC9595496B2666087596EE64DE379272051BB854157C0D938BE2C26/scale?width=400&aspectRatio=1.78&format=png",
 };
 
 export const brandMarvel = {
     videoURL: "https://vod-bgc-eu-west-1.media.dssott.com/bgui/ps01/disney/bgui/2019/09/06/1567786546-marvel.mp4",
     bgURL: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/95A7C4D6CB024A2089A55477B6B874DC97EB725C319988900908BEA970C95635/scale?width=1920&aspectRatio=1.78&format=jpeg",
     logoURL: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BC26D77B10047FCE6F1CC1AB419F700447E5C37D352BAD6433B2EF7C068187D0/scale?width=600&aspectRatio=2.00&format=png",
+    videoURLcard: "https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564676115-marvel.mp4",
+    logoURLcard: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C90088DCAB7EA558159C0A79E4839D46B5302B5521BAB1F76D2E807D9E2C6D9A/scale?width=400&aspectRatio=1.78&format=png",
 };
 
 export const brandDisney = {
     videoURL: "https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564677287-disney.mp4",
     bgURL: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D25D3AD359815E66D69484199DBEE7E957E9C18955665C4E055E5BF5FA950467/scale?width=1920&aspectRatio=1.78&format=jpeg",
     logoURL: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A596DE839393E0F3DB258AC5B4F45CDB4C03257DAA4FF87F9952ADBCB28E2905/scale?width=600&aspectRatio=2.00&format=png",
+    videoURLcard: "https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564674844-disney.mp4",
+    logoURLcard: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FFA0BEBAC1406D88929497501C84019EBBA1B018D3F7C4C3C829F1810A24AD6E/scale?width=400&aspectRatio=1.78&format=png",
 };
 
 export const brandPixar = {
     videoURL: "https://vod-bgc-eu-west-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564677724-pixar.mp4",
     bgURL: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/29DDAF03F7837DD2AD1522842BBE09DE79CCF399053B58ECB402823FE1493492/scale?width=1920&aspectRatio=1.78&format=jpeg",
     logoURL: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/817E44CB7C09C8FAEB20EA389DD9532BB795B160F944400DB89D8479B007445B/scale?width=600&aspectRatio=2.00&format=png",
+    videoURLcard: "https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564676714-pixar.mp4",
+    logoURLcard: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F4E1A299763030A0A8527227AD2812C049CE3E02822F7EDEFCFA1CFB703DDA5/scale?width=400&aspectRatio=1.78&format=png",
 };
 
 export const brandNatGeo = {
     videoURL: "https://vod-bgc-eu-west-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/02/1564784586-national-geographic.mp4",
     bgURL: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CA876AA050B35F391EEE1A00D21147708DC1D34B2546D866769403CBFFDAFF43/scale?width=1920&aspectRatio=1.78&format=jpeg",
     logoURL: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B794A4647CDE36B4D8742BB6B3FDAEC940351C90F2D7D15E803B2376021C3826/scale?width=600&aspectRatio=2.00&format=png",
+    videoURLcard: "https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564676296-national-geographic.mp4",
+    logoURLcard: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2EF24AA0A1E648E6D1A3B26491F516632137ED87AB22969D153316F8BD670FB5/scale?width=400&aspectRatio=1.78&format=png",
 };
 
 // ACTUALIZACIONES

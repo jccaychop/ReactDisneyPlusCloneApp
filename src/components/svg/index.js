@@ -7,6 +7,7 @@ import { ReactComponent as ReactSVGmovies } from './source/movies.svg';
 import { ReactComponent as ReactSVGseries } from './source/series.svg';
 import { ReactComponent as ReactSVGgroupWatch } from './source/groupWatch.svg';
 import { ReactComponent as ReactSVGplay } from './source/play.svg';
+import { ReactComponent as ReactSVGcheckbox } from './source/checkbox.svg';
 
 export const SVGhome = () => {
     return <ReactSVGhome />
@@ -38,4 +39,8 @@ export const SVGgroupWatch = () => {
 
 export const SVGplay = () => {
     return <ReactSVGplay />
+};
+
+export const SVGcheckbox = ({ ...restProps }) => {
+    return <ReactSVGcheckbox {...restProps} />
 };
