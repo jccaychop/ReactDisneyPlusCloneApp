@@ -11,3 +11,5 @@ export { default as Movies } from './movies';
 export { default as Media } from './media';
 export { default as Main } from './main';
 export { default as Subscriber } from './subscriber';
+export { default as Password } from './password';
+export { default as Billing } from './billing';

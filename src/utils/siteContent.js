@@ -125,6 +125,7 @@ const langES = {
                 placeholder: "Correo electrónico",
                 button: "Continuar",
             },
+            email_error: "Lo sentimos, tenemos problemas para crear tu cuenta. Vuelve a escribir tu correo electrónico y/o contraseña e intenta de nuevo. Si el problema continúa, comunícate con Atención al Cliente de Disney+ (código de error 6).",
             offers: "¡Sí! Quiero recibir actualizaciones, ofertas especiales y otra información de Disney+ y la Familia de Compañías Walt Disney.",
             privacy_1: "Disney usará tus datos para personalizar y mejorar tu experiencia en Disney+ y para enviarte información sobre Disney+. Puedes cambiar tus preferencias de comunicación en cualquier momento. Podemos usar tus datos tal como se describe en nuestra Política de privacidad.",
             privacy_2: "Al hacer clic en Continuar, reconoces que has leído nuestra Política de privacidad",
@@ -134,6 +135,44 @@ const langES = {
             step_label: "PASO 2 DE 4",
             title: "Acuerdo de suscripción",
             subscription: ``,
+            confirmation: "Al hacer clic en Aceptar y continuar, confirmas que has leído y aceptas el Acuerdo de suscripción en su totalidad.",
+            form: {
+                button: "Aceptar y continuar",
+            }
+        },
+        step_3: {
+            id: 3,
+            step_label: "PASO 3 DE 4",
+            title: "Crea una contraseña",
+            form: {
+                placeholder: "Contraseña",
+                button: "Continuar",
+                suggestion_password: "Usa al menos ocho caracteres, al menos una letra mayúscula, una letra minúscula, un número y un carácter especial.",
+                suggestion_email: "Tienes que usar este correo para iniciar sesión:"
+            },
+            password_error: "Lo sentimos, tenemos problemas para crear tu cuenta. Vuelve a escribir tu correo electrónico y/o contraseña e intenta de nuevo. Si el problema continúa, comunícate con Atención al Cliente de Disney+ (código de error 6).",
+        },
+        step_4: {
+            id: 4,
+            step_label: "PASO 4 DE 4",
+            title: "Selecciona un plan y configura el pago",
+            warning: "INGRESO DE DATOS DESHABILITADO, SOLO SE PERMITE GENERAR DATA FALSA",
+            fake_button: "Clic para generar data falsa",
+            cancellation: "La cancelación puede hacerse en cualquier momento y entrará en vigor cuando termine el período de facturación.",
+            confirmation: "Al seleccionar Aceptar y suscribirse, aceptas que tu suscripción comenzará de inmediato. No recibirás un reembolso por las suscripciones mensuales o anuales si cancelas el contrato y ya usaste el contenido digital. Te enviaremos un aviso de renovación 30 días antes de que entren en vigor las renovaciones anuales. Te cobraremos el cargo mensual o anual estándar de forma recurrente según tu método de pago registrado. La cancelación puede hacerse en cualquier momento y entrará en vigor cuando termine el período de facturación.",
+            form: {
+                full_name: "nombre en la tarjeta",
+                card_number: "número de la tarjeta",
+                date: "fecha de vencimiento",
+                cvv: "código de seguridad",
+                button: "aceptar y suscribirse",
+            },
+            billing_error: {
+                full_name: "Escribe el nombre que figura en la tarjeta.",
+                card_number: "Escribe un número de tarjeta de crédito válido.",
+                date: "Escribe una fecha de vencimiento válida.",
+                cvv: "Escribe el código de seguridad.",
+            }
         }
     },
 };

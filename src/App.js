@@ -2,6 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
 import AppRouter from './routers/AppRouter';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 const App = () => {
   return (

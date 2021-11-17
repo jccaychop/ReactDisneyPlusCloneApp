@@ -21,6 +21,7 @@ export const GlobalStyles = createGlobalStyle`
         --black-2: #00000099;
         --black-3: #31343E;
         --black-4: #191D21;
+        --red-1: #FF554C;
 
         --font-roman: 'Avenir Roman';
         --font-heavy: 'Avenir Heavy';

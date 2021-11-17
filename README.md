@@ -16,6 +16,7 @@
 - react-tabs: [react-tabs](https://www.npmjs.com/package/react-tabs)
 - truncatise: [truncatise](https://www.npmjs.com/package/truncatise)
 - firebase: [firebase](https://firebase.google.com/docs/web/setup)
+- react-tiny-popover: [react-tiny-popover](https://www.npmjs.com/package/react-tiny-popover)
 
 
 
@@ -34,6 +35,7 @@ npm install animate.css --save
 npm install --save react-tabs
 npm install truncatise
 npm install firebase
+npm install react-tiny-popover
 
 npm install axios normalize.css react-multi-carousel react-player redux react-redux redux-thunk validator react-router-dom
 ```

@@ -16,7 +16,15 @@ import {
     CheckboxGroup,
     Label,
     Agreement,
-    Background
+    Background,
+    AgreementGroup,
+    Shadow,
+    Accept,
+    PasswordGroup,
+    SuggestionEmail,
+    OffersGroup,
+    InputGroup,
+    InputGroupRow
 } from './styles/signup';
 
 const Signup = ({ children, ...restProps }) => {
@@ -53,8 +61,12 @@ Signup.Form = function SignupForm({ children, ...restProps }) {
     return <Form {...restProps}>{children}</Form>
 };
 
-Signup.Input = function SignupInput({ children, ...restProps }) {
+Signup.Input = function SignupInput({ ...restProps }) {
     return <Input {...restProps} />
+};
+
+Signup.PasswordGroup = function SignupPasswordGroup({ children, ...restProps }) {
+    return <PasswordGroup {...restProps}>{children}</PasswordGroup>
 };
 
 Signup.Button = function SignupButton({ children, ...restProps }) {
@@ -71,6 +83,10 @@ Signup.Text = function SignupText({ children, ...restProps }) {
 
 Signup.CheckboxGroup = function SignupCheckboxGroup({ children, ...restProps }) {
     return <CheckboxGroup {...restProps}>{children}</CheckboxGroup>
+};
+
+Signup.OffersGroup = function SignupOffersGroup({ children, ...restProps }) {
+    return <OffersGroup {...restProps}>{children}</OffersGroup>
 };
 
 Signup.Span = function SignupSpan({ children, ...restProps }) {
@@ -91,4 +107,28 @@ Signup.Agreement = function SignupAgreement({ children, ...restProps }) {
 
 Signup.Background = function SignupBackground({ children, ...restProps }) {
     return <Background {...restProps}>{children}</Background>
+};
+
+Signup.AgreementGroup = function SignupAgreementGroup({ children, ...restProps }) {
+    return <AgreementGroup {...restProps}>{children}</AgreementGroup>
+};
+
+Signup.Shadow = function SignupShadow({ children, ...restProps }) {
+    return <Shadow {...restProps}>{children}</Shadow>
+};
+
+Signup.Accept = function SignupAccept({ children, ...restProps }) {
+    return <Accept {...restProps}>{children}</Accept>
+};
+
+Signup.SuggestionEmail = function SignupSuggestionEmail({ children, ...restProps }) {
+    return <SuggestionEmail {...restProps}>{children}</SuggestionEmail>
+};
+
+Signup.InputGroup = function SignupInputGroup({ children, ...restProps }) {
+    return <InputGroup {...restProps}>{children}</InputGroup>
+};
+
+Signup.InputGroupRow = function SignupInputGroupRow({ children, ...restProps }) {
+    return <InputGroupRow {...restProps}>{children}</InputGroupRow>
 };
