@@ -14,7 +14,6 @@ const Password = ({ siteData, formValues, handleInputChange, nextStep, step, set
             setIsError(true);
         } else if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%=*?&])[A-Za-z\d@$!%=*?&]{8,}$/.test(formValues.password)) {
             // Mínimo ocho caracteres, al menos una letra mayúscula, una letra minúscula, un número y un carácter especial:
-            console.log("else if : ", formValues.password);
             setIsError(true);
         } else {
             setIsError(false);
@@ -28,6 +27,10 @@ const Password = ({ siteData, formValues, handleInputChange, nextStep, step, set
     }, [step]);
 
     useEffect(() => {
+        setIsError(false);
+    }, [formValues]);
+
+    useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
@@ -36,7 +39,7 @@ const Password = ({ siteData, formValues, handleInputChange, nextStep, step, set
     }
 
     return (
-        <Signup.Form>
+        <>
             <Signup.Step>{step_label}</Signup.Step>
 
             <Signup.Title>{title}</Signup.Title>
@@ -62,7 +65,7 @@ const Password = ({ siteData, formValues, handleInputChange, nextStep, step, set
             </Signup.SuggestionEmail>
 
             <Signup.Button type="button" onClick={validationPassword}>{form.button}</Signup.Button>
-        </Signup.Form>
+        </>
     )
 }
 

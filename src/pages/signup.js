@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router';
 import { Signup, SVGcheckbox } from '../components';
+import { firebaseCheckEmailExists } from '../firebase/authFirebase';
+import { EmailExist } from './../actions/authorization';
 
 const SignUp = ({ siteData, formValues, handleInputChange, color, changeColor, nextStep, step, setStep }) => {
 
@@ -8,16 +11,28 @@ const SignUp = ({ siteData, formValues, handleInputChange, color, changeColor, n
 
     const [isError, setIsError] = useState(false);
     const history = useHistory();
+    const dispatch = useDispatch();
 
-    const validationEmail = () => {
+    const validationEmail = async () => {
+
         if (formValues.email.trim() === "") {
             setIsError(true);
         } else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(formValues.email)) {
             setIsError(true);
         } else {
-            setIsError(false);
-            nextStep();
-            history.push("/signup/susbscriber-agreement-review");
+            // verificar si existe el email
+            const exists = await firebaseCheckEmailExists(formValues.email);
+
+            // si no tiene metodo de inicio de sesion, el array es vacio
+            if (!exists) {
+                setIsError(false);
+                nextStep();
+                history.push("/signup/susbscriber-agreement-review");
+            } else {
+                setIsError(false);
+                dispatch(EmailExist(formValues.email));
+                history.push("/login/password");
+            }
         }
     };
 
@@ -26,11 +41,15 @@ const SignUp = ({ siteData, formValues, handleInputChange, color, changeColor, n
     }, [step]);
 
     useEffect(() => {
+        setIsError(false);
+    }, [formValues]);
+
+    useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
     return (
-        <Signup.Form>
+        <>
             <Signup.Step>{step_label}</Signup.Step>
 
             <Signup.Title>{title}</Signup.Title>
@@ -64,7 +83,7 @@ const SignUp = ({ siteData, formValues, handleInputChange, color, changeColor, n
                 <Signup.Text>{privacy_2}</Signup.Text>
                 <Signup.Button type="button" onClick={validationEmail}>{form.button}</Signup.Button>
             </Signup.Group>
-        </Signup.Form>
+        </>
     )
 }
 

@@ -82,6 +82,10 @@ export const Input = styled.input`
     border-radius: 5px;
     background-color: var(--black-3);
     color: var(--gray-3);
+
+    ${({ isCardValid }) => isCardValid && `
+        border: 1px solid rgb(99, 220, 159);
+    `}
 `;
 
 export const PasswordGroup = styled.div`
@@ -129,6 +133,7 @@ export const Button = styled.button`
     color: var(--white);
     background-color: var(--blue-3);
     transition: all 0.5s ease;
+    cursor: pointer;
 
     &:hover {
         background-color: var(--blue-4);
@@ -230,7 +235,6 @@ export const Background = styled.div`
     width: 100%;
     height: 56px;
     position: sticky;
-    /* bottom: 140px; */
     bottom: 135px;
     background-image: linear-gradient(rgba(26, 29, 41, 0), rgba(26, 29, 41, 0.9) 100%);
 
@@ -258,7 +262,6 @@ export const Shadow = styled.div`
     box-shadow: rgb(249 249 249 / 30%) 0px -0.5px 0px 0px inset;
     height: 1px;
     margin-bottom: 16px;
-    /* min-width: 479px; */
     width: 100%;
 `;
 

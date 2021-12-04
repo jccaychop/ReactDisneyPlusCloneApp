@@ -77,7 +77,14 @@ export const movieCertificationUS = [
         order: 2,
         rating: "10+",
         url: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BCA81F30467F173D2B96C297B63C6415530579F41E3B548744F52BFB02045491/scale?width=240",
-    }
+    },
+    {
+        certification: "-",
+        meaning: "No rating information.",
+        order: 7,
+        rating: "-",
+        url: "/img/scale_none.png",
+    },
 ];
 
 export const serieCertificationUS = [
@@ -92,6 +99,13 @@ export const serieCertificationUS = [
         certification: "",
         meaning: "No rating information.",
         order: 7,
+        rating: "-",
+        url: "/img/scale_none.png",
+    },
+    {
+        certification: "-",
+        meaning: "No rating information.",
+        order: 8,
         rating: "-",
         url: "/img/scale_none.png",
     },

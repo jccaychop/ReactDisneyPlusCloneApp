@@ -1,28 +1,76 @@
 import React, { useEffect } from 'react';
-import { useSelector } from 'react-redux';
-import { Wrapper } from '../components';
-import FooterContainer from '../containers/footer';
-import LoginContainer from './../containers/login';
-import { siteContent } from '../utils/siteContent';
+import { useHistory } from 'react-router';
+import { Login } from '../components';
+import { firebaseCheckEmailExists } from '../firebase/authFirebase';
 
-const Login = () => {
+const LoginP = ({ siteData, formValues, handleInputChange, isError, setIsError, setEmailExist, emailExistText, setEmailExistText }) => {
 
-    const langSelected = useSelector(state => state.lang.language);
-    const siteData = langSelected === 'es-MX' ? siteContent[0] : siteContent[1];
+    const { login: { step_1: { title, form, group, email_error, email_not_exist } } } = siteData;
+
+    const history = useHistory();
+
+    const validationEmail = async () => {
+
+        if (formValues.email.trim() === "") {
+            setIsError(true);
+            setEmailExist(true);
+        } else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(formValues.email)) {
+            setIsError(true);
+            setEmailExist(true);
+        } else {
+            // verificar si existe el email
+            const exists = await firebaseCheckEmailExists(formValues.email);
+
+            // si no tiene metodo de inicio de sesion, el array es vacio
+            // por tanto, el email no esta registrado
+            if (!exists) {
+                setIsError(false);
+                setEmailExist(false);
+                setEmailExistText(false);
+                // history.push("/signup");
+            } else {
+                setIsError(false);
+                setEmailExist(true);
+                setEmailExistText(true);
+                history.push("/login/password");
+            }
+        }
+    };
 
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, [])
+    }, []);
+
+    useEffect(() => {
+        setIsError(false);
+        setEmailExist(true);
+        setEmailExistText(true);
+    }, [formValues]);
 
     return (
         <>
-            <Wrapper>
-                <LoginContainer siteData={siteData} />
-            </Wrapper>
+            <Login.Title>{title}</Login.Title>
 
-            <FooterContainer siteData={siteData} />
+            <Login.Input
+                type="email"
+                placeholder={form.placeholder}
+                name="email"
+                value={formValues.email}
+                onChange={handleInputChange}
+                emailExistText={emailExistText}
+            />
+
+            {isError && (<Login.Text2>{email_error}</Login.Text2>)}
+            {!emailExistText && (<Login.Text2>{email_not_exist.error}</Login.Text2>)}
+
+            <Login.Button type="button" onClick={validationEmail}>{form.button}</Login.Button>
+
+            <Login.Group>
+                <Login.Text>{group.text}</Login.Text>
+                <Login.Link to="/signup">{group.link}</Login.Link>
+            </Login.Group>
         </>
     )
 }
 
-export default Login;
+export default LoginP;

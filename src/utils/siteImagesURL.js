@@ -59,6 +59,16 @@ export const utilityURL = [
         alt: 'combo_feature_ES',
         src: 'https://firebasestorage.googleapis.com/v0/b/disney-plus-clon-app.appspot.com/o/assets%2Fimg%2Futility%2Fdisney_combo_feature.jpg?alt=media&token=cece839c-7b25-4df6-8139-5bd98bfe751b',
     },
+    {
+        id: 12,
+        alt: 'no_image_available_ES',
+        src: 'https://firebasestorage.googleapis.com/v0/b/disney-plus-clon-app.appspot.com/o/assets%2Fimg%2Futility%2Fdisney-imagen-no-disponible.png?alt=media&token=3b6d6f7b-785d-410c-b022-e4ee00215d13',
+    },
+    {
+        id: 13,
+        alt: 'no_image_available_EN',
+        src: 'https://firebasestorage.googleapis.com/v0/b/disney-plus-clon-app.appspot.com/o/assets%2Fimg%2Futility%2Fdisney-no-image-available.png?alt=media&token=fe3644f6-7efd-493f-b122-3b27cdb2791d',
+    },
 ];
 
 export const originalsURL = [

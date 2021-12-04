@@ -55,6 +55,7 @@ const TabContainer = ({ dataUsed, mediaTYPE, langSelected }) => {
                                         <TabPanel className="my_react-tabs__tab-panel" key={element['_id']}>
                                             <SeasonContainer
                                                 episodes={element.episodes}
+                                                langSelected={langSelected}
                                             />
                                         </TabPanel>
                                     )

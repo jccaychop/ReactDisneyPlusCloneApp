@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Redirect } from 'react-router-dom';
 import HeroContainer from './../containers/hero';
 import HeroContainerEN from './../containers/heroEN';
 import SectionContainer from './../containers/section';
@@ -13,8 +14,9 @@ import { siteContent } from './../utils/siteContent';
 import { ButtonLoginV1, ButtonSignUpV1, Features, Header, Hero, Productions, Section } from '../components';
 import { changeLanguageAction, finishLanguageLoading, startLanguageLoading } from '../actions/language';
 import { useScroll } from '../hooks/useScroll';
+import { firebaseLogout } from '../firebase/authFirebase';
 
-const Main = () => {
+const Main = ({ isAuthenticated }) => {
 
     const langSelected = useSelector(state => state.lang.language);
 
@@ -40,6 +42,10 @@ const Main = () => {
         window.scrollTo(0, 0);
     }, [language, dispatch]);
 
+    if (isAuthenticated) {
+        return <Redirect to="/home" />
+    };
+
     return (
         <>
             <HeaderContainer viewport={viewport}>
@@ -48,6 +54,7 @@ const Main = () => {
                         (viewport.y < -600) && <ButtonSignUpV1 to={"/signup"} viewport={viewport} className="animate__animated animate__fadeIn">{buttons['signup']}</ButtonSignUpV1>
                     }
                     <ButtonLoginV1 to={"/login"}>{buttons['login']}</ButtonLoginV1>
+                    <button onClick={() => { dispatch(firebaseLogout()) }}>CERRAR SESION</button>
                 </Header.Group>
             </HeaderContainer>
             {

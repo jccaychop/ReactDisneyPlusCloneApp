@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { Route, Switch } from 'react-router-dom';
-import { Disney, Marvel, NatGeo, Pixar, StarWars } from '../pages';
+import { Disney, Marvel, NatGeo, Nomatch, Pixar, StarWars } from '../pages';
 import { ButtonLoginV1, ButtonSignUpV1, Header } from '../components';
 import HeaderContainer from '../containers/header';
 import { useScroll } from '../hooks/useScroll';
@@ -37,6 +37,7 @@ const BrandRouter = () => {
                 <Route path="/brand/natgeo" component={NatGeo} />
                 <Route path="/brand/pixar" component={Pixar} />
                 <Route path="/brand/starwars" component={StarWars} />
+                <Route exact path="/brand" component={Nomatch} />
             </Switch>
         </>
     )

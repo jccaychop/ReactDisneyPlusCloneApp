@@ -4,9 +4,13 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import '../global/myCarousel.css';
 import 'animate.css';
+import truncatise from 'truncatise';
 import { URL_TMDB_PICTURE } from '../environments/environments';
+import { utilityURL } from '../utils/siteImagesURL';
 
-const SeasonContainer = ({ episodes }) => {
+const SeasonContainer = ({ episodes, langSelected }) => {
+
+
 
     const responsive = {
         desktop_1: {
@@ -65,6 +69,14 @@ const SeasonContainer = ({ episodes }) => {
         }
     }
 
+    const options = {
+        TruncateLength: 200,
+        TruncateBy: "characters", // Options are 'words', 'characters' or 'paragraphs'
+        Strict: false,
+        StripHTML: true,
+        Suffix: ' ...'
+    };
+
     return (
         <Season>
             <Carousel
@@ -88,13 +100,20 @@ const SeasonContainer = ({ episodes }) => {
             >
                 {
                     episodes.map(item => {
+                        let source = "";
+                        if (item['still_path'] === "" || item['still_path'] === null) {
+                            source = langSelected === 'es-MX' ? utilityURL[12].src : utilityURL[13].src;
+                        } else {
+                            source = `${URL_TMDB_PICTURE}${item['still_path']}`;
+                        }
+
                         return (
                             <Season.Item key={item.id}>
                                 <Season.Poster>
-                                    <Season.Image src={`${URL_TMDB_PICTURE}${item['still_path']}`} className="animate__animated animate__fadeIn"/>
+                                    <Season.Image src={source} className="animate__animated animate__fadeIn" />
                                 </Season.Poster>
                                 <Season.Title>{item.episode_number}. {item.name}</Season.Title>
-                                <Season.Text>{item.overview}</Season.Text>
+                                <Season.Text>{truncatise(item.overview, options)}</Season.Text>
                             </Season.Item>
                         )
                     })

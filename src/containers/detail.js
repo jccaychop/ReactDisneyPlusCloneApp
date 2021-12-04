@@ -1,6 +1,6 @@
 import React from 'react';
 import { Detail } from '../components';
-import { genresES, serieCertificationUS } from './../utils/tmdbCodes';
+import { genresES } from './../utils/tmdbCodes';
 
 const DetailContainer = React.memo(({ dataUsed, mediaTYPE, langSelected }) => {
 

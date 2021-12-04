@@ -1,5 +1,19 @@
 import React from 'react';
-import { Container, Form, Picture, Logo, LogoLink, Title, Input, Button, Group, Text, Link } from './styles/login';
+import {
+    Container,
+    Form,
+    Picture,
+    Logo,
+    LogoLink,
+    Title,
+    Input,
+    Button,
+    Group,
+    Text,
+    Text2,
+    Link,
+    PasswordGroup
+} from './styles/login';
 
 const Login = ({ children, ...restProps }) => {
     return (
@@ -47,6 +61,14 @@ Login.Text = function LoginText({ children, ...restProps }) {
     return <Text {...restProps}>{children}</Text>
 };
 
+Login.Text2 = function LoginText2({ children, ...restProps }) {
+    return <Text2 {...restProps}>{children}</Text2>
+};
+
 Login.Link = function LoginLink({ children, ...restProps }) {
     return <Link {...restProps}>{children}</Link>
+};
+
+Login.PasswordGroup = function LoginPasswordGroup({ children, ...restProps }) {
+    return <PasswordGroup {...restProps}>{children}</PasswordGroup>
 };

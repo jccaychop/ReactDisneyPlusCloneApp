@@ -5,7 +5,6 @@ export const Container = styled.main`
 `;
 
 export const Content = styled.div`
-    /* min-height: 70vh; */
     height: 100%;
 `;
 

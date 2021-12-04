@@ -106,15 +106,40 @@ const langES = {
         text_2: "Disney+ es un servicio por suscripción de pago, su contenido está sujeto a disponibilidad. El servicio Disney+ es comercializado por Disney DTC LATAM, Inc., 2400 W Alameda AVE., Burbank CA 91521.",
     },
     login: {
-        title: "Inicia sesión con tu correo",
-        form: {
-            placeholder: "Correo electrónico",
-            button: "Continuar",
+        step_1: {
+            id: 1,
+            title: "Inicia sesión con tu correo",
+            form: {
+                placeholder: "Correo electrónico",
+                button: "Continuar",
+            },
+            group: {
+                text: "¿Primera vez en Disney+?",
+                link: "Suscribirse",
+            },
+            email_error: "Lo sentimos, tenemos problemas para crear tu cuenta. Vuelve a escribir tu correo electrónico y/o contraseña e intenta de nuevo. Si el problema continúa, comunícate con Atención al Cliente de Disney+ (código de error 6).",
+            email_not_exist: {
+                error: "Correo electrónico desconocido. Verifica si está bien escrito.",
+                title: "No hay cuenta para ese correo",
+                text: "¿Está bien escrito? Si es así, visita disneyplus.com/loginhelp. Si es tu primera vez en Disney+, suscríbete.",
+                button: {
+                    signup: "suscribirse",
+                    try: "intentar de nuevo",
+                },
+            },
         },
-        group: {
-            text: "¿Primera vez en Disney+?",
-            link: "Suscribirse",
-        },
+        step_2: {
+            id: 2,
+            title: "Escribe tu contraseña",
+            form: {
+                placeholder: "Contraseña",
+                button: "Iniciar sesión",
+                suggestion_password: "Distingue mayúsculas y minúsculas.",
+            },
+            password_error: "Contraseña incorrecta. Intenta de nuevo; si el problema continúa, puedes restablecerla con la opción ¿Olvidaste la contraseña? (código de error 14).",
+            suggestion_password: "Usa al menos ocho caracteres, al menos una letra mayúscula, una letra minúscula, un número y un carácter especial.",
+            link: "¿Olvidaste la contraseña?",
+        }
     },
     signup: {
         step_1: {
@@ -174,6 +199,13 @@ const langES = {
                 cvv: "Escribe el código de seguridad.",
             }
         }
+    },
+    no_match: {
+        title: "No se puede encontrar la página que buscaba.",
+        text: "Vaya a la página de inicio de Disney+ haciendo clic en el botón de abajo.",
+        button: {
+            text: "Disney+ inicio",
+        },
     },
 };
 
@@ -278,14 +310,105 @@ const langEN = {
         text_2: "Disney+ is a paid subscription service, its content is subject to availability. The Disney+ service is marketed by Disney DTC LATAM, Inc., 2400 W Alameda AVE., Burbank CA 91521.",
     },
     login: {
-        title: "Log in with your email",
-        form: {
-            placeholder: "Email",
-            button: "Continue",
+        step_1: {
+            id: 1,
+            title: "Log in with your email",
+            form: {
+                placeholder: "Email",
+                button: "Continue",
+            },
+            group: {
+                text: "New to Disney+?",
+                link: "Sign up",
+            },
+            email_error: "Sorry, we are having trouble creating your account. Please re-enter your email and password and try again. If the problem persists, contact Disney+ Support (Error Code 6).",
+            email_not_exist: {
+                error: "Unknown email. Please check your spelling.",
+                title: "We couldn't find an account for that email",
+                text: "Check for typos. If you think this is an error, visit disneyplus.com/loginhelp. If you're new to Disney+, sign up.",
+                button: {
+                    signup: "sign up",
+                    try: "try again",
+                },
+            },
         },
-        group: {
-            text: "New to Disney+?",
-            link: "Sign up",
+        step_2: {
+            id: 2,
+            title: "Enter your password",
+            form: {
+                placeholder: "Password",
+                button: "Log in",
+                suggestion_password: "(case sensitive)",
+            },
+            password_error: 'Incorrect Password. Please reenter your password and try again. If the problem persists, try resetting your password by selecting "Forgot Password?" (Error Code 14).',
+            suggestion_password: "Use at least eight characters, at least one uppercase letter, one lowercase letter, one number, and one special character.",
+            link: "Forgot Password?",
+        }
+    },
+    signup: {
+        step_1: {
+            id: 1,
+            step_label: "STEP 1 OF 4",
+            title: "Enter your email",
+            form: {
+                placeholder: "Email",
+                button: "Continue",
+            },
+            email_error: "Sorry, we are having trouble creating your account. Please re-enter your email and password and try again. If the problem persists, contact Disney+ Support (Error Code 6).",
+            offers: "Yes! I would like to receive updates, special offers, and other information from Disney+ and The Walt Disney Family of Companies.",
+            privacy_1: 'Disney will use your data to personalize and improve your Disney+ experience and to send you information about Disney+. You can change your communication preferences anytime. We may use your data as described in our Privacy Policy.',
+            privacy_2: 'By clicking "Continue," you acknowledge that you have read our Privacy Policy.',
+        },
+        step_2: {
+            id: 2,
+            step_label: "STEP 2 OF 4",
+            title: "Subscriber Agreement",
+            subscription: ``,
+            confirmation: 'By clicking "Agree & Continue", you confirm that you have read in full and agree to our Subscriber Agreement.',
+            form: {
+                button: "Agree & continue",
+            }
+        },
+        step_3: {
+            id: 3,
+            step_label: "STEP 3 OF 4",
+            title: "Create a password",
+            form: {
+                placeholder: "Password",
+                button: "Continue",
+                suggestion_password: "Use a minimum of 6 characters (case sensitive) with at least one number or special character.",
+                suggestion_email: "You'll be using this email to log in:"
+            },
+            password_error: "Sorry, we are having trouble creating your account. Please re-enter your email and password and try again. If the problem persists, contact Disney+ Support (Error Code 6).",
+        },
+        step_4: {
+            id: 4,
+            step_label: "STEP 4 OF 4",
+            title: "Select plan and set up payment",
+            warning: "DATA ENTRY DISABLED, IT IS ONLY ALLOWED TO GENERATE FAKE DATA",
+            fake_button: "Click to generate fake data",
+            cancellation: "Cancel anytime, effective at the end of the billing period.",
+            confirmation: 'By selecting "Agree & Subscribe", you agree to start your subscription immediately, and that you will not be able to withdraw from the contract and receive a refund for monthly or yearly subscriptions upon performance of the digital content. We will send you a renewal notice 30 days prior to yearly renewals becoming effective. We will charge the standard monthly or annual fee to your stored payment method on a recurring basis. You can cancel at any time, effective at the end of the billing period. ',
+            form: {
+                full_name: "name on card",
+                card_number: "card number",
+                date: "expiration date",
+                cvv: "security code",
+                button: "agree & subscribe",
+            },
+            billing_error: {
+                full_name: "Enter the name on your Card",
+                card_number: "Enter a valid Credit Card Number",
+                date: "Enter a valid expiration date",
+                cvv: "Enter Security Code",
+            }
+        }
+    },
+    no_match: {
+        title: "The page you were looking for cannot be found.",
+        text: "Please go to the Disney+ home page by clicking the button below",
+        button: {
+            text: "Disney+ home",
         },
     },
 };

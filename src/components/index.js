@@ -23,3 +23,5 @@ export { default as Media } from './media';
 export { default as Detail } from './detail';
 export { default as Season } from './season';
 export { default as Signup } from './signup';
+export { default as Modal } from './modal';
+export { default as NoMatch } from './nomatch';

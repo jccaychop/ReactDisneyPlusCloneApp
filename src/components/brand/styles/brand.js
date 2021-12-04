@@ -73,14 +73,6 @@ export const Image = styled.img`
 
 export const Section = styled.div`
     background-color: transparent;
-
-    /* ${({ bgURL }) => bgURL && `
-        background-image: url(${bgURL});
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        // filter: opacity(90%);
-    `} */
 `;
 
 export const BrandLogo = styled.div`

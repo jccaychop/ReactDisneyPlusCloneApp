@@ -27,7 +27,7 @@ const Subscriber = ({ siteData, formValues, onClickInputChange, nextStep, step, 
     }
 
     return (
-        <Signup.Form>
+        <>
             <Signup.Step>{step_label}</Signup.Step>
 
             <Signup.Title>{title}</Signup.Title>
@@ -44,7 +44,7 @@ const Subscriber = ({ siteData, formValues, onClickInputChange, nextStep, step, 
                     <Signup.Button type="button" name="agreement" onClick={acceptAgreement}>{form.button}</Signup.Button>
                 </Signup.Accept>
             </Signup.AgreementGroup>
-        </Signup.Form>
+        </>
     )
 }
 

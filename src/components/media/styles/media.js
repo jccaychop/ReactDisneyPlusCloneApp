@@ -1,6 +1,6 @@
 import styled from "styled-components/macro";
 import { device } from "../../../utils/breakpoints";
-import { ButtonBase, LoginV1 } from "../../buttons/styles/buttons";
+import { ButtonBase } from "../../buttons/styles/buttons";
 
 export const Container = styled.div`
     width: 100%;
@@ -29,18 +29,6 @@ export const Image = styled.img`
     opacity: 0.9; /* modificar */
     transition: opacity 1500ms ease 0s;
     width: 100vw;
-
-    /* ${({ viewport }) => (viewport?.y < -200 && viewport?.y > -300) && `
-        opacity: 0.6;
-    `} */
-
-    /* ${({ viewport }) => (viewport?.y < -301 && viewport?.y > -400) && `
-        opacity: 0.4;
-    `}
-
-    ${({ viewport }) => (viewport?.y < -401) && `
-        opacity: 0.2;
-    `} */
 
     ${({ viewport }) => (viewport?.y < -201) && `
         opacity: 0.2;
@@ -107,7 +95,6 @@ export const TagGenres = styled.span`
 
 export const ButtonGroup = styled.div`
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     margin-top: 30px;
     margin-bottom: 20px;

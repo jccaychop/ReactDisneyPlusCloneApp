@@ -42,6 +42,7 @@ export const Form = styled.form`
 `;
 
 export const Input = styled.input`
+    width: 100%;
     height: 48px;
     padding: 3px 10px;
     margin-top: 24px;
@@ -50,6 +51,10 @@ export const Input = styled.input`
     border-radius: 5px;
     background-color: var(--black-3);
     color: var(--gray-3);
+
+    ${({ emailExistText }) => !emailExistText && `
+        border: 1px solid var(--red-1);
+    `}
 `;
 
 export const Button = styled.button`
@@ -64,6 +69,7 @@ export const Button = styled.button`
     font-weight: bold;
     letter-spacing: 2px;
     color: var(--white);
+    cursor: pointer;
     background-color: var(--blue-3);
     transition: all 0.5s ease;
 
@@ -85,6 +91,14 @@ export const Text = styled.p`
     padding: 8px 0;
 `;
 
+export const Text2 = styled.p`
+    font-size: 12px;
+    color: var(--red-1);
+    padding: 8px 0;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+`;
+
 export const Link = styled(ReactRouterLink)`
     padding: 8px 0;
     text-decoration: none;
@@ -94,5 +108,23 @@ export const Link = styled(ReactRouterLink)`
     &:hover {
         color: var(--blue-5);
         text-decoration: underline;
+    }
+`;
+
+export const PasswordGroup = styled.div`
+    width: 100%;
+    position: relative;
+
+    i {
+        position: absolute;
+        top: 40px;
+        right: 15px;
+        opacity: 0.8;
+        transition: opacity 450ms ease;
+
+        &:hover{
+            cursor: pointer;
+            opacity: 1;
+        }
     }
 `;

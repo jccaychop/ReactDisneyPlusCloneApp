@@ -23,15 +23,6 @@ export const Container = styled.header`
         padding: 0 35px;
     }
 
-    /* ${({ viewport }) => (viewport?.y < -600) && `
-        background-color: var(--black-1);
-
-        picture > img{
-            display: block;
-            animation: fadeIn 500ms linear;
-        }
-    `} */
-
     ${({ viewportbrand }) => (viewportbrand?.y < -50) && `
         background-color: var(--black-1);
 
