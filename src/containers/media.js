@@ -9,7 +9,7 @@ import truncatise from 'truncatise';
 const MediaContainer = ({ mediaTYPE, content, siteData, brandPictures, langSelected, viewport }) => {
 
     const indexLang = langSelected === "es-MX" ? 0 : 1;
-
+    const { media: { button, tags } } = siteData;
     const { data } = content;
 
     const options = {
@@ -163,7 +163,7 @@ const MediaContainer = ({ mediaTYPE, content, siteData, brandPictures, langSelec
                                                     </>
                                                 )
                                         }
-                                        <Media.Tag> • {dataUsed?.numberSeasons} temporadas</Media.Tag>
+                                        <Media.Tag> • {dataUsed?.numberSeasons} {tags.season}</Media.Tag>
                                     </Media.TagRow>
                                 )
                                 : (
@@ -185,9 +185,9 @@ const MediaContainer = ({ mediaTYPE, content, siteData, brandPictures, langSelec
 
                     <Media.ButtonGroup>
                         {/* <Media.SignUpButton to="/signup">OBTENER DISNEY+</Media.SignUpButton> */}
-                        <Media.PlayButton><SVGplay />VER AHORA</Media.PlayButton>
+                        <Media.PlayButton><SVGplay />{button.play}</Media.PlayButton>
 
-                        <Media.TrailerButton>TRAILER</Media.TrailerButton>
+                        <Media.TrailerButton>{button.trailer}</Media.TrailerButton>
 
                         <Media.ButtonSubGroup>
                             <Media.AddListButton>+</Media.AddListButton>
@@ -199,7 +199,7 @@ const MediaContainer = ({ mediaTYPE, content, siteData, brandPictures, langSelec
                 </Media.Information>
 
                 <Media.TabGroup>
-                    <TabContainer dataUsed={dataUsed} mediaTYPE={mediaTYPE} langSelected={langSelected} />
+                    <TabContainer dataUsed={dataUsed} mediaTYPE={mediaTYPE} langSelected={langSelected} siteData={siteData} />
                 </Media.TabGroup>
             </Media.Section>
 

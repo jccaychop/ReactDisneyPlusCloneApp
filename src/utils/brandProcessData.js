@@ -20,6 +20,11 @@ export const getAllBrands = async (brandSource, language) => {
         languageLS === null ||
         brandsLS === null ||
         languageLS !== language ||
+        brandsLS?.brandStarWars?.totalResults !== starWars.total_results ||
+        brandsLS?.brandDisney?.totalResults !== disney.total_results ||
+        brandsLS?.brandMarvel?.totalResults !== marvel.total_results ||
+        brandsLS?.brandNatGeo?.totalResults !== natGeo.total_results ||
+        brandsLS?.brandPixar?.totalResults !== pixar.total_results ||
         brandStarWars.totalResults !== starWars.total_results ||
         brandDisney.totalResults !== disney.total_results ||
         brandMarvel.totalResults !== marvel.total_results ||

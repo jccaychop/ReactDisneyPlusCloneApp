@@ -15,3 +15,4 @@ export { default as Password } from './password';
 export { default as PasswordLogin } from './passwordLogin';
 export { default as Billing } from './billing';
 export { default as Nomatch } from './nomatch';
+export { default as Search } from './search';

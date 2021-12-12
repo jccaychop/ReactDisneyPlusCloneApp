@@ -66,7 +66,7 @@ export const disneyCollection = [
 
 export const marvelCollection = [
     {
-        category: ['Principales', 'Main'],
+        category: ['Principales', 'Featured'],
         list: [91363, 340102, 114695, 497698, 127585, 118340, 84958, 299534, 88396, 85271, 284053, 10138, 24428, 99861, 299536],
     },
     {

@@ -110,7 +110,16 @@ const SeasonContainer = ({ episodes, langSelected }) => {
                         return (
                             <Season.Item key={item.id}>
                                 <Season.Poster>
-                                    <Season.Image src={source} className="animate__animated animate__fadeIn" />
+                                    <Season.Image
+                                        className="animate__animated animate__fadeIn"
+                                        src={source}
+                                        onError={
+                                            (e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = langSelected === 'es-MX' ? utilityURL[12].src : utilityURL[13].src
+                                            }
+                                        }
+                                    />
                                 </Season.Poster>
                                 <Season.Title>{item.episode_number}. {item.name}</Season.Title>
                                 <Season.Text>{truncatise(item.overview, options)}</Season.Text>

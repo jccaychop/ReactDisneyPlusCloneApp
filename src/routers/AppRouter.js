@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { finishFetching, setBrandListAction, startFetching } from '../actions/brand';
+import { finishFetching, setBrandListAction, setGenreListMovieAction, setGenreListSerieAction, startFetching } from '../actions/brand';
 import { Home, Main, Nomatch } from '../pages';
 import { getAllBrands } from '../utils/brandProcessData';
 import BrandRouter from './BrandRouter';
@@ -9,9 +9,11 @@ import MoviesRouter from './MoviesRouter';
 import SeriesRouter from './SeriesRouter';
 import SignupRouter from './SignupRouter';
 import LoginRouter from './LoginRouter';
+import SearchRouter from './SearchRouter';
 import { auth, onAuthStateChanged } from '../firebase/firebaseConfig';
 import { Login } from '../actions/authorization';
 import SpinnerContainer from './../containers/spinner';
+import { genreListByMedia } from '../utils/genreListByMedia';
 
 const AppRouter = () => {
 
@@ -26,6 +28,8 @@ const AppRouter = () => {
         dispatch(startFetching());
         getAllBrands(brandContent, langSelected).then(data => {
             dispatch(setBrandListAction(data));
+            dispatch(setGenreListSerieAction(genreListByMedia(data, 'tv')));
+            dispatch(setGenreListMovieAction(genreListByMedia(data, 'movie')));
         });
         dispatch(finishFetching());
         console.log("APP ROUTER GET ALL BRANDS EJECUTE");
@@ -55,6 +59,7 @@ const AppRouter = () => {
                 <Route path="/brand" component={BrandRouter} />
                 <Route path="/series" component={SeriesRouter} />
                 <Route path="/movies" component={MoviesRouter} />
+                <Route path="/search" component={SearchRouter} />
 
                 <Route path="/signup"><SignupRouter isAuthenticated={isLoggedIn} /></Route>
                 <Route path="/login"><LoginRouter isAuthenticated={isLoggedIn} /></Route>
@@ -63,10 +68,6 @@ const AppRouter = () => {
 
                 <Route path="*" component={Nomatch} />
 
-                {/* <Route path="/signup" component={SignupRouter} /> */}
-                {/* <Route path="/login" component={LoginRouter} /> */}
-                {/* <Route path="/home" component={Home} /> */}
-                {/* <Route exact path="/" component={Main} /> */}
             </Switch>
         </Router>
     )

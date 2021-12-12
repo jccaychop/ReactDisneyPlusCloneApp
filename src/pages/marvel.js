@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { Site } from '../components';
 import BrandContainer from '../containers/brand';
@@ -16,6 +16,10 @@ const Marvel = () => {
     const brandContent = useSelector(state => state.brand.brandList.brandMarvel);
     const { data, collection } = brandContent;
     const siteData = langSelected === 'es-MX' ? siteContent[0] : siteContent[1];
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>

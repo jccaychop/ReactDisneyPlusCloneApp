@@ -35,7 +35,10 @@ const SeriesRouter = () => {
                 <Route path="/:mediaTYPE/:mediaID">
                     <Media viewport={viewport} />
                 </Route>
-                <Route exact path="/series" component={Series} />
+
+                <Route exact path="/series">
+                    <Series siteData={siteData} />
+                </Route>
             </Switch>
         </>
     )

@@ -25,3 +25,5 @@ export { default as Season } from './season';
 export { default as Signup } from './signup';
 export { default as Modal } from './modal';
 export { default as NoMatch } from './nomatch';
+export { default as Content } from './content';
+export { default as Search } from './search';

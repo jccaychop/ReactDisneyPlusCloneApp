@@ -2,7 +2,9 @@ import React from 'react';
 import { Detail } from '../components';
 import { genresES } from './../utils/tmdbCodes';
 
-const DetailContainer = React.memo(({ dataUsed, mediaTYPE, langSelected }) => {
+const DetailContainer = React.memo(({ dataUsed, mediaTYPE, langSelected, siteData }) => {
+
+    const { media: { detail_tags: { duration, release_date, genre, rating, starring, creator, director } } } = siteData;
 
     const findDirector = (array) => {
         let result = array.find(arr => arr.job === "Director");
@@ -25,7 +27,7 @@ const DetailContainer = React.memo(({ dataUsed, mediaTYPE, langSelected }) => {
                 <Detail.Group>
                     <Detail.List>
                         <Detail.Item>
-                            <Detail.ItemLabel>Duración:</Detail.ItemLabel>
+                            <Detail.ItemLabel>{duration}:</Detail.ItemLabel>
                             {
                                 (mediaTYPE === 'series')
                                     ? (<Detail.ItemText>{(dataUsed?.episodeRunTime.length === 0 ? '--' : dataUsed?.episodeRunTime[0] + ' min')}</Detail.ItemText>)
@@ -35,7 +37,7 @@ const DetailContainer = React.memo(({ dataUsed, mediaTYPE, langSelected }) => {
                         </Detail.Item>
 
                         <Detail.Item>
-                            <Detail.ItemLabel>Fecha de estreno:</Detail.ItemLabel>
+                            <Detail.ItemLabel>{release_date}:</Detail.ItemLabel>
                             {
                                 (mediaTYPE === 'series')
                                     ? (
@@ -53,7 +55,7 @@ const DetailContainer = React.memo(({ dataUsed, mediaTYPE, langSelected }) => {
                         </Detail.Item>
 
                         <Detail.Item>
-                            <Detail.ItemLabel>Género:</Detail.ItemLabel>
+                            <Detail.ItemLabel>{genre}:</Detail.ItemLabel>
                             {
                                 dataUsed.genres.map((gen, index, array) => {
 
@@ -67,7 +69,7 @@ const DetailContainer = React.memo(({ dataUsed, mediaTYPE, langSelected }) => {
                         </Detail.Item>
 
                         <Detail.Item>
-                            <Detail.ItemLabel>Clasificación:</Detail.ItemLabel>
+                            <Detail.ItemLabel>{rating}:</Detail.ItemLabel>
                             {
                                 (mediaTYPE === "series")
                                     ? (<Detail.ItemText><Detail.Rating src={dataUsed.contentRatings.url} alt={dataUsed.contentRatings.ratingValue} /></Detail.ItemText>)
@@ -80,7 +82,7 @@ const DetailContainer = React.memo(({ dataUsed, mediaTYPE, langSelected }) => {
                 <Detail.Group>
                     <Detail.List>
                         <Detail.Item>
-                            <Detail.ItemLabel>{(mediaTYPE === 'series') ? 'Creado por:' : 'Dirigido por:'}</Detail.ItemLabel>
+                            <Detail.ItemLabel>{(mediaTYPE === 'series') ? `${creator}:` : `${director}:`}</Detail.ItemLabel>
                             {
                                 (mediaTYPE === 'series')
                                     ? (<Detail.ItemText>{(dataUsed.createdBy.length === 0 ? '--' : dataUsed.createdBy[0].name)}</Detail.ItemText>)
@@ -89,7 +91,7 @@ const DetailContainer = React.memo(({ dataUsed, mediaTYPE, langSelected }) => {
                         </Detail.Item>
 
                         <Detail.Item>
-                            <Detail.ItemLabel>Elenco:</Detail.ItemLabel>
+                            <Detail.ItemLabel>{starring}:</Detail.ItemLabel>
                             <Detail.CastList>
                                 {
                                     dataUsed.credits.cast.map((cast, index) => {

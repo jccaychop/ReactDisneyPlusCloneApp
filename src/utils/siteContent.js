@@ -207,6 +207,32 @@ const langES = {
             text: "Disney+ inicio",
         },
     },
+    media: {
+        tags: {
+            season: "temporadas"
+        },
+        button: {
+            play: "Ver ahora",
+            trailer: "Trailer"
+        },
+        tabs: {
+            episode: "Episodios",
+            suggestions: "Sugerencias",
+            extra: "Extras",
+            detail: "Detalles",
+        },
+        detail_tags: {
+            duration: "Duración",
+            release_date: "Fecha de estreno",
+            genre: "Género",
+            rating: "Clasificación",
+            starring: "Elenco",
+            creator: "Creado por",
+            director: "Dirigido por",
+        },
+        serie: "Series",
+        movie: "Películas",
+    },
 };
 
 const langEN = {
@@ -410,6 +436,32 @@ const langEN = {
         button: {
             text: "Disney+ home",
         },
+    },
+    media: {
+        tags: {
+            season: "seasons"
+        },
+        button: {
+            play: "Play now",
+            trailer: "Trailer"
+        },
+        tabs: {
+            episode: "Episodes",
+            suggestions: "Suggestions",
+            extra: "Extras",
+            detail: "Details",
+        },
+        detail_tags: {
+            duration: "Duration",
+            release_date: "Release Date",
+            genre: "Genre",
+            rating: "Rating",
+            starring: "Starring",
+            creator: "Creator",
+            director: "Director",
+        },
+        serie: "Series",
+        movie: "Movies",
     },
 };
 

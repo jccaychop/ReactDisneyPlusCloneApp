@@ -5,6 +5,16 @@ export const setBrandListAction = (list) => ({
     payload: list,
 });
 
+export const setGenreListSerieAction = (list) => ({
+    type: types.brandSetGenreListSerie,
+    payload: list,
+});
+
+export const setGenreListMovieAction = (list) => ({
+    type: types.brandSetGenreListMovie,
+    payload: list,
+});
+
 export const startFetching = () => ({
     type: types.brandStartFetching,
 });

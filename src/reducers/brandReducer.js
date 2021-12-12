@@ -35,6 +35,8 @@ const initialState = {
             collection: pixarCollection,
         },
     },
+    idGenreSerie: null,
+    idGenreMovie: null,
 };
 
 export const brandReducer = (state = initialState, action) => {
@@ -55,6 +57,18 @@ export const brandReducer = (state = initialState, action) => {
             return {
                 ...state,
                 brandList: action.payload,
+            }
+
+        case types.brandSetGenreListSerie:
+            return {
+                ...state,
+                idGenreSerie: action.payload,
+            }
+
+        case types.brandSetGenreListMovie:
+            return {
+                ...state,
+                idGenreMovie: action.payload,
             }
 
         default:

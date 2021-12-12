@@ -10,8 +10,8 @@ export const pictureMarvel = {
                 logo: "/ADECC0DA23D1A3A7B402BA97F1975381AF91CACB8CDC6B8710A5ED25A7DBC95E/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/05237260CDE6C17658F51EE0143D79DA3EA0581CD78F17440B2862CF604E73CC/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/B7A6E80BC3E74B58516B0B6039D733BF5B24BD6DF763A86817196E7E67039F0B/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -24,8 +24,8 @@ export const pictureMarvel = {
                 logo: "/587D7009285FC0877A273948D46169F6F11A00C94E516774030336E2017CD728/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/8D16203DFEEBB7FB0CA4EACCBE6775101B636084448CE04E41D40B60DAE86928/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/878A5EF48AFE65F6A3D9C148953D231333E78CCD130D7BC5FFACE82D4844875B/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -38,8 +38,8 @@ export const pictureMarvel = {
                 logo: "/B009D9B1B8EBE8CB3B56A03FB66B193D27BFA77FB381001555CD1DD97EB15877/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/F427602670984E1237037A26C67FBDD3CB6EF4F7AE2A5CC84B6DAC61A54A520D/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/37C5ED2CB9BA54917ED75F7AE42F75EFD589BF7B2DF4E0952CAD0E9EB52C203E/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -52,8 +52,8 @@ export const pictureMarvel = {
                 logo: "/447F086BD67988708B4602835EF690EECA369A4622B005738A332DF3FB935A29/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/7C9BD4461D08B7F459636F6AB32E72CA594419D3C3127C3138C08C372A7D94CB/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/42A28997892F501A25031812374C5D739CF233DFA3E187D80232E8E089539F55/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -66,8 +66,8 @@ export const pictureMarvel = {
                 logo: "/AC3F18D5B153E4DCBF6042759A29A373E0621535FA50F1C652BCD3443D65AED6/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/544B51FA665564DC9CC04BBCC7D0B29211926F111D8D66E4F5BD34B4FD13137B/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/8D9578D0AC784AB96A7931D370FB7C32B3FCE073E08CD3199C62EACAF72C4197/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -80,8 +80,8 @@ export const pictureMarvel = {
                 logo: "/81EDDE400C2464645F7A6BC22C9E1C27F04B8AD80307292EC02C7C0B9F20A10B/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/0C54CD4C9707F428FF4411EEA250F521D61D3B4A88DB5F44AA9BE1424F279C69/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/2BC52707342758F298D494A634D71787F950AAECFAD1B39A040F196DB55AA9DE/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -94,8 +94,8 @@ export const pictureMarvel = {
                 logo: "/6CEB9F2EE54629F3A2FB7EEDF16042067ABE06617ADA1A08BA99E6366DCDA5BC/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/5F9F1BCA0B51A7CE38F9EDF14DE9F963E8CC5CDEA05E9E654235FA438A317D4E/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/C10A39BD73BF48D3CFE51FB144671B463111FF9CACF0B667058776CF7D7397F3/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -108,8 +108,8 @@ export const pictureMarvel = {
                 logo: "/A2838843E9955C04D82642CBC6F4FF3FBE4870BF1E4670E1F12B67A7CD4D7AA6/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/E33527747ED34A7745FADCB025FC08EC8DAA67989CA08A87B7C83DF3DC18CBDB/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/1ED2868A0BAAAA6DF8AEC68B3EF68A8E77E7DB653625E45602898E37A3109399/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -122,8 +122,8 @@ export const pictureMarvel = {
                 logo: "/8F76E82B03B4B41A8C0A13F67814363490C5DFEE107DE61DC4BE82D127AD88FA/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/B05758F8AF77246839207F142947870F009D826F78AA0DC1CEB63B5721AACFF5/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/56FCF419C130883963FC3D782777D920EA266663DB0E21F92C94493F59C171C6/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -136,8 +136,8 @@ export const pictureMarvel = {
                 logo: "/53F4643CC4840CB2B28107C69687ADD4ECD83B79444B0EF53E89AC7676A74A78/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/AE59A209102A876FEAFD3E8EBF5EBE99D052284752844CA738A060718E00A8C0/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/84FFFB2A8E898D47654D1529EF22B8D90CB596AB33E02C734B3DE0FA16D183AB/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -150,8 +150,8 @@ export const pictureMarvel = {
                 logo: "/52F676E0F94A88179FFF9FB14634814FE8E99CDBA1E3937933074518ECD679F5/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/11EB42BBFC67B38B0A2D0698FB8D76C3FBE27EB5964F02B5D523F3577E24244C/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/15CD950BDB0C8CAF50EAB27909AE4A09E5DEC6F5E9749E230C3FB07BE6A7D0FC/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -164,8 +164,8 @@ export const pictureMarvel = {
                 logo: "/F8F8E8D81D295F33712F9D1E5E108960212929D365475D6A27F1F2C8882E8DD2/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/5FF3CCCE73439843E33B3D04CF6C53635C15095EFC8F99935D31D288C2ED6AB7/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/A91EF8B7E71440BCE8A9220592694ACE33E5FAE05C10EC8493B9BC1EFC05696C/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -178,8 +178,8 @@ export const pictureMarvel = {
                 logo: "/DFC2E94C5BC2FF1DCD1DE4B8A801949F16BFF9B6CF0C80B1943366AA06E6BB6D/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/1C3CD1CF83181D919221F40CBC6FB955977CBF1469C691C7E3DDF9532D18B425/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/F23D1859AE858CB5D252DB1A1022D4339478F9C88ED091B030FA8BEB4C896E07/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -192,8 +192,8 @@ export const pictureMarvel = {
                 logo: "/4B6D090E59B2932EBE520B3BA9B28935F990125C36E10A3E4F6346946AD0B1D2/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/8636C5AE7FA84D97161FCFBAC498975B26E38399FC699AFFEE35A0389FCF6738/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/62DCBF4B4EB8D7279CE2631F505226548626FB14A5AD5855AB70448588DFE38E/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -206,8 +206,8 @@ export const pictureMarvel = {
                 logo: "/039621CCBFE9B0A4B55A708CBC2A9D33D6731A52DE24A68DF6EBC3516B7D0A67/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/AE3140956ABD946A7A7F6A3BA5609EF401DD8121265A3D2ABAEA4419E8402E46/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/039621CCBFE9B0A4B55A708CBC2A9D33D6731A52DE24A68DF6EBC3516B7D0A67/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -220,8 +220,8 @@ export const pictureMarvel = {
                 logo: "/B89A06AA45438598D3E2066DE39697D91E0F38803CE776AC4572249A712259C1/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/1E1FB09F600C074A40E0A41D9E21F42BA99EA3CA318B77F8E9AA488DF1B056D4/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/8B98724C0CAC735DBD3AD6700866DE799525512C9A635A1B645DB4411A1E7062/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -234,8 +234,8 @@ export const pictureMarvel = {
                 logo: "/C7CD271D2260D2F78145E8FC47BD567C851EBF167CEEBB3903807204AB9BB974/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/FE51D96A35C6C5DBEFD47CA8DE7C33E46EBE5BF5FF5D43E5DAFA33EC12E332B7/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/4AEFC4FF680990289EC693D95117FB8FA147C54A893E829A27AD3033D39E029C/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -248,8 +248,8 @@ export const pictureMarvel = {
                 logo: "/873325A4C84600E4D3557AC744245FE48B637021C6E36A312AE0673260ADEF80/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/56699FCCB547A3BA494EDF8BD3656066BD98A20CF89D1F780585DF9015DF4B38/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/B1628E76290EA8B043644A8C07EBC5C9F76FD7A13DB047E2AC02570EFA168EA3/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -262,8 +262,8 @@ export const pictureMarvel = {
                 logo: "/002796C5909ADDF330C7A6E3B378E1D570F825EA4AAFEB0E1D5487E63118DF38/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/9B00956E840C0696A111B19C95562E661BCD00FF085B96EEAC709D6B312EDE7E/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/55AE4EC95D846A9CF7EA97B970AD5A3A0BF2F6B8E68E631DB6D91D85A6790C2E/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -276,8 +276,8 @@ export const pictureMarvel = {
                 logo: "/73E47E4F7328E02328E2DBA2B6FD854E8591D5AD6089D33616E4ADC88F15F346/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/705201D1B22DDE561452A0FE1C58AC8E53C7E7F12D7FE4589118228FE3CEF025/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/0270931C04868A02A9BA88AA31A77C9BA546A70542FA5BCA6E55EF531E5DA5E1/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -290,8 +290,8 @@ export const pictureMarvel = {
                 logo: "/E5395B68966B1519505596E71AFA1E367BD694DA134516404E87CF7C4D57CD42/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/825BE4A837FD462FF7CD6981B5ECFA0F020B10A9A6476F123A5286D544D0C160/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/E5395B68966B1519505596E71AFA1E367BD694DA134516404E87CF7C4D57CD42/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -304,8 +304,8 @@ export const pictureMarvel = {
                 logo: "/C0723BEC1ACCB35142331EDD3ECF6A515F8F3378249EFDD921F29D3AEE56C275/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/BC2BD3D0355C58B637CB6C5120D77996D7C0979AAB0C12B7A1E360EF18AA738F/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/1DE4EB87970708BEF8CA80E8F0326AEBC9A6019B7E974C1C7A181C12A3D4CA9A/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -318,8 +318,8 @@ export const pictureMarvel = {
                 logo: "/A29018B33B39F3C7940C65A1932CD1025BAE8B809B2826EE0181665565748886/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/725C68FA333EBE6F4EF8DFA1CEE0FFB3863166AE468BC754473A8EB241A7E329/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/CA001DF9F696E1EAD3DDF0869E86D27CD04B2A52A8E7846DDDD1BB7ED21C3AEB/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -332,8 +332,8 @@ export const pictureMarvel = {
                 logo: "/0E1EC013D2473A3757EB8BAC1FAAE98EA8CB6571EF0862B41A223DCBF36D00D3/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/498A4C644BC48D8A29039338314CA343B48D57275FEC7E3F2F12A0383B0789F1/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/0E1EC013D2473A3757EB8BAC1FAAE98EA8CB6571EF0862B41A223DCBF36D00D3/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -346,8 +346,8 @@ export const pictureMarvel = {
                 logo: "/38D783A24812140FA9C270950E565703627363EA18428709F04E7C3E3A4C143F/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/6D9C72D55197D6034779AFC88A82B9719FC3DB9CA4A81635285D5FBC9936EE8C/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/E37163F96C438185899158C26BC37AF142394949DA56C11C75CC2B240E120520/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -360,8 +360,8 @@ export const pictureMarvel = {
                 logo: "/6A987BC6526E25D5B554CD68B689E24988D3F696ED99FCDB82FE8A117324BDDB/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/567D456DADE3446C76163D7FD6322762886A388AABF351B89434101528CF2537/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/7BFE65DBC1CCCBDDAC6E7B97794B67E8EEE07E86184D16E2E7B73937E1F97073/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -374,8 +374,8 @@ export const pictureMarvel = {
                 logo: "/1A9C22DB97C263F230B3B2983DB6A8BF846B4F431FAA15CED4E9522452508A96/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/CAEDF2EF6FA01DABD16E1564D9281DCD583B92FDCD0ADC59105448D58BBF0B76/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/77E0D84A3ACC241511CC5D6B762C4071B69C177B2E1394D5640C81D4CB7B66B5/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -388,8 +388,8 @@ export const pictureMarvel = {
                 logo: "/999D2A1BBC21365FE620DAAE16D0FE1BEC8CAF99252C68C8933E1445347828AA/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/6A45C3F8F933C659E89A2F3151385F132833A971489A9638EFAA52BFF06F5318/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/9888571E618552D9DACF58FC4E29EA140CBB879AC2B0433A2858D9B4B17A4074/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -402,8 +402,8 @@ export const pictureMarvel = {
                 logo: "/A702FF159ECE93704DFE04865F0C75ECEEC88E69937480D48E36F0BACE6D3445/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/78B6515C921079FD10039B6E50E5CA9857580D28FE0836849DBF07A2D7331E59/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/3C8512D83A50126AEEAE272017260B8AA517BA276076EE5191108B7E0352B0A9/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -416,8 +416,8 @@ export const pictureMarvel = {
                 logo: "/40675450792383244049AB4E146217025183C1EE986F0EA8BD1112C57744495B/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/7EFFD7F833AF41F5D2671E1754B0A2E017426A3D3F4730BBA2D08457319CB77F/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/896F9B953E1EC4B5A72D5E36BD40C34392E3B7079B17565AE6A3DE8E3484BFAE/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -430,8 +430,8 @@ export const pictureMarvel = {
                 logo: "/761659774EBFFAF2057FF9C471F4C2C79A73D79D7E20EBF9ABDCB251CB14A370/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/8925682616E6BB9EAEEBCCA448E9F28A97BBC1DCACDDB41E25B959FB3092F440/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/265710F19253E337FBD3D565574F7613D6026CC66C6D8B13D0C4F5159DD9C81D/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -444,8 +444,8 @@ export const pictureMarvel = {
                 logo: "/A667AB9AD0CD928D1744B2253C0215E2F2BCC1F87510F1331B8B9890F513D61D/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/303DDBA409144DE1C51ECC701847BAB23F41CE7DDA70865CB1138486C9039DA9/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/BE8F7F120F92C5B6E8B2A00FBAB5217531E9F9B1362E592C9D73538A53451FE6/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -458,8 +458,8 @@ export const pictureMarvel = {
                 logo: "/8873D52AEA67F52E490D54B2BD67CC60137F7AA3DE61CCB389143BF34EBDDD14/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/397FFFABA8DA53D6EC92311640D027B7FAC477903456CDE867A4F7830AEB321E/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/794BC620449264779BF5B4B6E0EC7CD9882CCC14FDDD53D20E539C778F54F1F9/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -472,8 +472,8 @@ export const pictureMarvel = {
                 logo: "/E23120421315E07A20EA5CA9C1337FB4CC4D83A889BFD8FAB94DCFF8C37861E0/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/A47E8AE2170F758719808C808B961D8FA7AC0BE53FF47A5026CA804E888BA20B/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/372A6EEE56E6B3DB85FFF99D3F1E1AF6023E82E7977206DA4DF923EBB0E724AF/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -486,8 +486,8 @@ export const pictureMarvel = {
                 logo: "/FDDE2B49FA8E4400C0CFA172009F53DA86AB62F870570037D2A1C602CB469AAC/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/748BBF0FB9D247A33997336E9026602F82C5AECA8487469DCC618737343EBA84/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/FDDE2B49FA8E4400C0CFA172009F53DA86AB62F870570037D2A1C602CB469AAC/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -500,8 +500,8 @@ export const pictureMarvel = {
                 logo: "/4643CA4C29E184E988C8BD09084388BE04B9457630A595FDBA3F728CA2F8EC1B/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/3A6300648622BA8197BA7B9DC57403E2080C70D92D9D4E09E789BA203FD84B08/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/8832DB7E2457BDE883DB20E34617644E44D11BAEDD5D899A58C2061F65B1C5CD/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -514,8 +514,8 @@ export const pictureMarvel = {
                 logo: "/4A63CDB31E1BC24F8196244EBC637F82B703EA6C2C7AB30620DE8A9689E3B946/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/26A077DF1C6DFCEC50E7CC9208BA2ED4A877C50229465C17A51DBD78D914B7D0/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/04A2691C074A1C3C333AAE143501099F34F3B521B0DA7D3AFFBC6FE52AEEDF73/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -528,8 +528,8 @@ export const pictureMarvel = {
                 logo: "/5C3165037B714F4AFD4A0ED0510CB467DE12E347336F442672CB48EA8D74F320/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/769BC4322D63C3EB2459BEC3A0A7E1767A7C5949C1FA79DF0BAF781C2647FE44/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/563AA5C78A79F8E7B97311E39ED93FA820012B8C123C1D05E89A6F6B71CC09CA/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -542,8 +542,8 @@ export const pictureMarvel = {
                 logo: "/93080D8E59EF0B975EFDA91DBB14ED498C51A44198DD18587546209BB2D759E3/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/CF71C31B81C11B2E3E545DA7B53193322D74A5FBBA321AFD3DC67995C6BF40A6/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/68B5BFB311AF5A14ACA57B9D20135C0AE3197A094078849340A7704DBEAEFC28/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -556,8 +556,8 @@ export const pictureMarvel = {
                 logo: "/4A0A059C3B4D0C7544C65765B671AFB4A6701F41CC41D70C192C7EDA6E05DA1A/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/5E985A0BD3504B6F820B5CA66AE7723CB625BEB1B79201A02A5D8B93F5431F12/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/4A0A059C3B4D0C7544C65765B671AFB4A6701F41CC41D70C192C7EDA6E05DA1A/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -570,8 +570,8 @@ export const pictureMarvel = {
                 logo: "/6FDC2720D8D5734065EF782E3B71317E9182397617E22C408BB516C7B74FF381/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/47A022C2DA1305AC96761574494C99E11BE59D782D288F2A1879886670E8642C/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/6FDC2720D8D5734065EF782E3B71317E9182397617E22C408BB516C7B74FF381/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -584,8 +584,8 @@ export const pictureMarvel = {
                 logo: "/8A1E7811BAD33A15FF0F5C5614D9513AA17CBEFE5600E45E1E9B7B1419FC9D5B/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/CF780BAB1B440A9DF57EC8534305670A41BF4C2BE12345FDE90129102A06C5D5/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/9A47EC5840F5EAC32ECDC0FE236B006587CC20DDCBE3FD3F0EC85D164EEEA55A/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -598,8 +598,8 @@ export const pictureMarvel = {
                 logo: "/7E8C3DC0BF1512FC403DA3EEF8CA751D078F01AF179F09B8A0166BD2F5A54427/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/16E5ED404575E7FBD43496A1226D3796378F261A5E29FDD40D03CE9F061CE75F/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/C5261F79197672324891029A1A97231BB816A0EB22580BEA7A46DF991A721620/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -612,8 +612,8 @@ export const pictureMarvel = {
                 logo: "/0B13198FA1EA7C94BC510BB949EDD02CBBBB176FE5F96FD3DBA31E526C9FD4EE/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/8775BE9D801FF8A7A6342946032BD332E63B2F83A903F818CBEBEDCC720EAE25/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/0B13198FA1EA7C94BC510BB949EDD02CBBBB176FE5F96FD3DBA31E526C9FD4EE/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -626,8 +626,8 @@ export const pictureMarvel = {
                 logo: "/64EFF9B3B49B177276C05F9F37C2AF1D7EC9B5DBBD280192F66ED115BFE760FD/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/7A904970DC7D0CCCE6014BF1DD57BC9449CE564DA4C2EBB03F4634533D541761/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/07FBC9F352168E9EFDB87507E103C903C254664A72C80B26453AC4CEBBDC5459/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -640,8 +640,8 @@ export const pictureMarvel = {
                 logo: "/633E087790134336EB88D69B8A69E7906B358EF84B89FE113817FD1AA515F6B4/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/CB6C738DA9E4B5B6D9D8231D5841F3A309B0A1EA7C0A9FDD690A405618B2898A/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/54EE4426EE76EB4FD62915C238BE989335A16CFBFE20894211F56E29263803D8/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -654,8 +654,8 @@ export const pictureMarvel = {
                 logo: "/931DCC8F8ECDA9E82908D03FD516D7DA8AFAC0F860FCBF78A5559FF95A2DE8AC/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/39171C163BA2D7FFED8FE2673110A237FEA5D128DB93D65711142A272A058E69/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/69EF911F46DA1331D26CF596626B8123764F68FF5097A5601163F2EECD592823/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -668,8 +668,8 @@ export const pictureMarvel = {
                 logo: "/6F1452DA54F1C05E5159F9D7B2E222FAABCD176CDC8726318D817F03836F835D/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/08A110106EAB4C93630632C54714CFDD06A65815B11A33E6EEFDC636F466D71E/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/CACC4AD34FC0448B7667CBCBF3832EB294D6BCC2FD2C9F87487EDB230D75807F/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -682,8 +682,8 @@ export const pictureMarvel = {
                 logo: "/063E948F61919371A9774A2EA78C4C1137E459AD609BC30279515A45E44B920D/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/CCFA76CD91532D1E7FF8BAFDABEA1464B166B7ABE6D5258A48CD75DED875B608/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/2B28B63C430A1001D6C15DC54F378140F21B87B681465A652068EE79B5377C43/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -696,8 +696,8 @@ export const pictureMarvel = {
                 logo: "/C7400F8BF790DA7602EE7051A9CE558678070B6F79F542DBB96E4779569B317F/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/7CD8D555BA17B42A320656A6D96DDD7889CBFABDDD8CBFB6C8AFA53A33C2D46B/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/09A3F83A6A1CE8605264303104713193EFAFF02E113E1E8E441108DFDAD8502E/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -710,8 +710,8 @@ export const pictureMarvel = {
                 logo: "/5094B982EB59C4A9AF1DED5DBE67F4A7658FDD92293A8EBB764F2104B211CF54/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/E100B0FDADD9CE893713A59E0FD6D26232F27149DC423C4D1C2A619AD83BB3A0/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/5094B982EB59C4A9AF1DED5DBE67F4A7658FDD92293A8EBB764F2104B211CF54/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -724,8 +724,8 @@ export const pictureMarvel = {
                 logo: "/E79E4E2081E2CD5B69D4EBCED21F8E1B8CA29829EA591B8B61B766854B566091/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/C89C925BD1B6AFE327551D30803246A71D14463B5120D7856A2B4BE752F0C25E/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/E79E4E2081E2CD5B69D4EBCED21F8E1B8CA29829EA591B8B61B766854B566091/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -738,8 +738,8 @@ export const pictureMarvel = {
                 logo: "/8C0A6F2020F6B07D450053A1E00E00A224A77459CDA170E9A198425A2CC4E41A/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/D7C42B45C9C09BABFD07D31D60E6E75CAE13DF23B967076350691645FCB78100/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/DDCF3C44E22F392FB8E26298795F24B93F124F0F1CA1B1C20B2D390F40CB458B/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -752,8 +752,8 @@ export const pictureMarvel = {
                 logo: "/9B2BF6A684159E5C0889057C7238FD0DCBFFC5745E50D8FC7258D92AD3CC35B6/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/AAF34323587DE8512D8C2F9C85042F61DA4D48550E80B5158309AFD9B76E1AF2/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/9B2BF6A684159E5C0889057C7238FD0DCBFFC5745E50D8FC7258D92AD3CC35B6/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -766,8 +766,8 @@ export const pictureMarvel = {
                 logo: "/086A11518EDA113315BCC2841624D55332979FB707A1960E686484167DAE30DE/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/0C20606300D0A4CA507733E3CE79FCA7C08EE2282496B596E86A2D2461E12DCA/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/1FB13D1FC40061CB2A27CC8EB9E0C31A367FFBBFCCBDD3F898F08AF2F9B08AAC/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -780,8 +780,8 @@ export const pictureMarvel = {
                 logo: "/F6AC974AEC1A4150D4180C44B045EC920161E4FCA2D7F172152697E3F1DEED95/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/673F57ED848DB42D6420A16A2CB9073B1E1C2E2856D9751FD9C6F0B4647C24A3/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/F6AC974AEC1A4150D4180C44B045EC920161E4FCA2D7F172152697E3F1DEED95/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -794,8 +794,8 @@ export const pictureMarvel = {
                 logo: "/2E1C90FEEAEE3051C544B09E8F6439B294B8B693526106A91F875BECD4C1179B/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/997C6C5EC78BB39E2BC4FB63FB42077F86C73E6767EB6E32CE109B3838794AC8/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/BA32B5BD3A91C8FAD52F4B912D05728533D57E27DE78A53D5B9A6FD9F7E4A45A/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -808,8 +808,8 @@ export const pictureMarvel = {
                 logo: "/E903CB24FCFDD5B1546F05772DC66525F87651247F9BB3BEBF494F07C01BD9A3/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/D39D704EE80AF480C384A9192C244AD7EFE8CC5FDD8D3A4A509FB1F775AFDDB4/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/B54C0F6BB61DCC83537806DEB76ED98D46EB9E667314AE13EFC6C872039BA23B/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -822,8 +822,8 @@ export const pictureMarvel = {
                 logo: "/DFE75B036AD9C66516FD7ACE2C71331CC20612D2858A04DCE55C502A1D42A3C2/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/F12395DE51D51D4B946B90180D8AB85A091B10A95BFC7390AD69D876AB3FD981/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/03594C27DBF0E5EE34C462A23F48FAE697B8DD2DACA07EE097B0F26DF195CBB6/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -836,8 +836,8 @@ export const pictureMarvel = {
                 logo: "/51D258C9F5A8E6D97C44FD8DDDF3FF582224A5333F5A49AAA5272A57E9B4B612/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/0CE294B5D69EBB00D625D9FD13E1816ACCC81E7527EEE773C4E00001F49ADE60/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/3D38EFABAE3028C41C7F4D7A378B7FAF1C248E5871767BE1CE8848C4AA761952/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -850,8 +850,8 @@ export const pictureMarvel = {
                 logo: "/A751B0EFE5E767060B792A7D9D6C550DA9C3EEEF5AB88AFABFD12B5F09D8D306/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/405810ACE607E95848EB6171E21928FF67FB21D21984D3C2A235E4FE15E9AB85/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/A751B0EFE5E767060B792A7D9D6C550DA9C3EEEF5AB88AFABFD12B5F09D8D306/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -864,8 +864,8 @@ export const pictureMarvel = {
                 logo: "/520A8F40AAB93DC1528FE661ED57704CD4B81618CE3B0A1E697B1C61607BCDEF/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/8F05B4C8B1822925FCE963EEEAF83DEA7F0D9A1CD3B02A1227B5A73031A4E740/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/72385AE5D457705BE55088EA92C217A84982578B0983B532F98B38D1B105FDC7/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -878,8 +878,8 @@ export const pictureMarvel = {
                 logo: "/40ACD7B42222EE2E6DAE01CF3FE57AC4525C0E27CEE51D6FF3BCF1768FD391AF/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/CCCB375CF135DC44CC628F9ED791287611F17C2CA15891514C7C34ACC8783C2C/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/0DD1E2DA40C536AC674E3933321691C03CA82C117C0E236BC1917B232E8D97E0/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -892,8 +892,8 @@ export const pictureMarvel = {
                 logo: "/03E9122860D5B226A791FBE8683C383392B4F6F2809AB3355F4BCD34A8F5DD9A/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/AEE15F6A2D288BB0DF62A66B3F042AAC7CA697093E8E069646BF17884D1FC36A/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/A87261F10137D4811E8E53C883CDCCF6BF42F8A5023FA109785B195CA21EB67E/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -906,8 +906,8 @@ export const pictureMarvel = {
                 logo: "/164942A8A359F4B25A3C188A803136C174DB5AF6BCD6901F53BF8092A60B15E6/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/9795F962FA6F2B8C24B35C23082C99795162545B971F050414D31149D3F957A7/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/7D0DF5ACC66F8DCE42F7CEB0C1004A3F4A80AC35B6E41A19D19FF3C6C6394DAA/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -920,8 +920,8 @@ export const pictureMarvel = {
                 logo: "/6D0225E4FCB6818605697427EAA9D068DFE9292114BD743B22964E4973CF00F2/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/9C2A81C40AD55CDF85BFCF7C05EB0FDE0ED1A1D2B5E528EA44241007A4E32CE7/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/46CDFA35CA4F667DB55CF24C1AD00553826AD24A379FB8AE8513E55DB2FC044B/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -934,8 +934,8 @@ export const pictureMarvel = {
                 logo: "/A974AD78EE57B2B4D60614C2C4EEA57D2B2852B733DBD699818D9B063CD3BA97/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/F3B4C044EA04739F815A690950BB2636380F6990BD623458E6FC59BABD311849/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/0C93BF8E78D635F8C4EDA37F85CA6BA34A100A112DBEF63D5FD79F094778F2A5/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -948,8 +948,8 @@ export const pictureMarvel = {
                 logo: "/37A894D6B40A89B0F3AE622555F19F405E7DAAAEB3D7EC53053BE03E8A5F846D/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/83E4B1F383BE87DE2504D5D3FE63D85D83E615D6C64DE4BF224752FF98C7E0EA/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/37A894D6B40A89B0F3AE622555F19F405E7DAAAEB3D7EC53053BE03E8A5F846D/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -962,8 +962,8 @@ export const pictureMarvel = {
                 logo: "/E6A2156D919D68FEB34FDDE400DB237D7F01890B8C1F6B8E98E86FBED98F320B/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/1F006C56879F4AA6B249436B60161BF9733D0206D1E1F743C133243EEB6FE2C6/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/E6A2156D919D68FEB34FDDE400DB237D7F01890B8C1F6B8E98E86FBED98F320B/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -976,8 +976,8 @@ export const pictureMarvel = {
                 logo: "/8AD978DF0913D3C0846B1708ACF98B25097D2C42EBC36A54B804B1008B0A382D/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/6D83323145ED700282523765E70A6D2654AF0AD4B943844262814B4EE1E04CB6/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/FFE439183EB801D2753602872B2685849C2734157107177B08205DC196D02FB7/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -990,8 +990,8 @@ export const pictureMarvel = {
                 logo: "/2FABD1A4CC49C438A53822B8E7A51A2779DF7314C50EE71DFDC208FBBB7D56D1/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/A701C932A45812DEDA509BEAB64F06A0B5197B510365AE25B8748A0723749858/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/2FABD1A4CC49C438A53822B8E7A51A2779DF7314C50EE71DFDC208FBBB7D56D1/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -1004,8 +1004,8 @@ export const pictureMarvel = {
                 logo: "/1C8ED98E19B4C6B1F77B963DFD8ECA547AA1FBF328CFA5B9029B68B960742310/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/D52F6D5E62C1CCC7EE856261DB7112C6B097DA60B17DFCC737C9D1314C347D0A/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/4594EDB04AFD679D1B0E17F73B4B3E562FF99B0834CAE6EBF315075FE0B383E8/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Marvel",
@@ -1217,7 +1217,7 @@ export const pictureDisney = {
                 logo: "/D3EE110BC2CD89D0D4A6A9A17026300DF2CDEE442EEAD2527A734CF5093C672E/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "/C9F0F336F0A2E68ADBA83E46344049626F6AB3959737407D028000001A415474/badging?width=400&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                poster: "/C9F0F336F0A2E68ADBA83E46344049626F6AB3959737407D028000001A415474/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
                 logo: "/C90A322C35D0D6002E924F60074FC462D78F6CE6B3ED1EB4893A4050DABBD623/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
@@ -3055,7 +3055,7 @@ export const picturePixar = {
             },
             {
                 poster: "/82C50D8EB3226C0A696AF3AEB5AE945BB70B9CC58740F354AD177EDBC4D33644/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
-                logo: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FAC458D16FD5C17DD4E910CB124D8BFF30598A356581DBAB529E609CB0755BBE/scale?width=1440&aspectRatio=1.78&format=png",
+                logo: "/FAC458D16FD5C17DD4E910CB124D8BFF30598A356581DBAB529E609CB0755BBE/scale?width=1440&aspectRatio=1.78&format=png",
             }
         ],
         inBrand: "Pixar",
@@ -4303,8 +4303,8 @@ export const pictureNatGeo = {
                 logo: "/89141FAA520691E1AF90B1639DA7948784D967EC6B55B36BF6AF909CCB535199/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/B8FF8335B67E07426CB925EFBF48FE9A4159EBCB9CCF453F02E7F2A0C756A99B/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/784F6C53F0562C3FB1436885CDF0C7D43D72EC69EA2F5A2D72C7088ADBE9D331/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4317,8 +4317,8 @@ export const pictureNatGeo = {
                 logo: "/D6E39EC8F9C45FEF06C487CCA7E9AC6E4D511784DC96C9542785D25CC4B60814/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/DE6DF594C2553EDA9ABDF3105E5E8ED34B0F81B07A1797C95A503DABA56ADA5B/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/B64BBD315D2BA8EEB048246FBFBBEE92606F1F4FDBEE8B048A588A64EF4E05EA/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4331,8 +4331,8 @@ export const pictureNatGeo = {
                 logo: "/5E3732A8491E94EB198F161945BBC45B223F59D9CE9B32A4ABE55637061F8EEF/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/6AE4A53C304BA0D1D8FA3F5A572A6317C5644A13004DEE8009A645185B54D4FE/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/9F8CF846B2A2C04A9EDDD1D2EFA811B7319A6E8E2B033F8C9E5AD79CE8FACBE9/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4345,8 +4345,8 @@ export const pictureNatGeo = {
                 logo: "/D7EB8F17F400C295FF14C57599E9FC2BBA9A9B79F6079108A41764C760E34F0A/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/6F3FBCD86EDFAD6BF7D3B486EBFBD85667B8288871FB4E1A4B4EFCB4434426AE/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/D5AB75351DAE43773BF743D20BBF345E27F8CECCF90270765B5A3E8AB412831C/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4359,8 +4359,8 @@ export const pictureNatGeo = {
                 logo: "/1036546C6678C06DE9AF02229D4F3E189FC188E7EB495A7598769FEFEF64C8D1/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/CC414B01869E28C38B03E00B12F01C21796B86B1EDBA94BBACE7841B884862A8/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/E0962DD236F2E0903B563028577BA10B29749DA7DFC508A71DE2509CC0CBD4ED/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4373,8 +4373,8 @@ export const pictureNatGeo = {
                 logo: "/FB2DC06167934E6FE24EABFAE910DE1208B490891961CC53F43FC1EA887377B0/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/5EC2ABF6AA01F20BC0A2E1A4B6C0E03A54A1C525551805C47BB7B27301EB67E4/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/3AD1418670B0F97369FA6BEFE368504DA0F04323C01D562FA982DF7270803C41/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4387,8 +4387,8 @@ export const pictureNatGeo = {
                 logo: "/284CC0B143485BF0441D6A9BE3609C290FFA54F75745FE5F67B6A2327DD5F464/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/F9B300771D5184FDA5BBCB994267388D80D3F701CB94C92D3D33F2BE8EDA5A65/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/95C8487ECDB4098ADF689430A83BFF8D595DA8CE04DCE7BFB2EC7AB1FF297566/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4401,8 +4401,8 @@ export const pictureNatGeo = {
                 logo: "/6921EE6197EBF43203B1E93115DDE111FCC84F5AB864FD2E292881DE3073A474/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/CC2831909C84380A81D59CE0225961BA9657694E77DE319E8AC0DCD793D1E4A7/badging?width=500&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal",
+                logo: "/3E13073E8AD82B87C8EF0AAE44000AFBC2AAAD292FA0C3BBDD21461508606522/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4415,8 +4415,8 @@ export const pictureNatGeo = {
                 logo: "/062B69C4F1B233B349CF91C152AA5E999295E95034C8858467D027BAB16EE392/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/E89BB3246650DC8C74733F9AF2125819EEFE18FBB7A9DD34A2600F08F490F45E/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/062B69C4F1B233B349CF91C152AA5E999295E95034C8858467D027BAB16EE392/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4429,8 +4429,8 @@ export const pictureNatGeo = {
                 logo: "/F280AEBA14ECEE2CD27A187854AAB119877B752A3256BF9D619D1E9CC7FB97CB/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/772FA57EAF6729511AF7AE5CDC3A986646FC8F7CDEDB2B679FEE2A5367486355/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/38FD840C19B709C5C6B9F92D292C490D76D5D587E7F9C3D2840A7BF13DB904C8/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4443,8 +4443,8 @@ export const pictureNatGeo = {
                 logo: "/CA4330DC799903CBB040979ED6DCB1D954E26B204434455AA19C2F4294A4D8A6/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/980112E5628DA74B0D17F5C606A66DCC7A995146E88F609115C6034742716D54/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/A1291E31F3B4F40541DD96AF0AB497264CFD28FBA54DA6236E4038239C442BBF/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4457,8 +4457,8 @@ export const pictureNatGeo = {
                 logo: "/B3467AE27611177BCFFAD30D1DB7817B7769493A2631EBCDE669A3A9E91BC6F8/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/7E0704041CD7869432E186D3891EC19053F9A840E875EAB7654787DF81B3F1C7/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/B3467AE27611177BCFFAD30D1DB7817B7769493A2631EBCDE669A3A9E91BC6F8/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4471,8 +4471,8 @@ export const pictureNatGeo = {
                 logo: "/82255074CAE7AF20F7265F2A46A4280ED793914917822AC1735BA26C30B528CB/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/9CEE348BE24AFE40DD85B99AD1A442B2B984137CF0689FD689D2D105C1662B91/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/961B7B433024B9811B1708F3F117D59650D6501EEAE107DFBEAABDC89F968712/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4485,8 +4485,8 @@ export const pictureNatGeo = {
                 logo: "/45512525F9B8C2AFFC19D2C0B558C0F280E516AF05FF473DD2D2BA6C305EA426/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/98FFAB060C1DD7A18833BC4AD5A073587230A6915049BF3039D88E1BD5295420/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/CD57D831451B47E63AB8A36DFB504996204878DCCD66FF4C6FC49449B5806BDE/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4499,8 +4499,8 @@ export const pictureNatGeo = {
                 logo: "/32A889CB7601BAD0166C5598E34B8EAD6E8D68066AF196E8B416AE19920846C0/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/AC9E7CFB3FE491C607DDC8FD7492F6FD1B6B4A8FE9E98C6E3684F996E3AB7810/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/B2F8106E009869702BB566F013AA7833ACCB929E7E0590998390CC436896D248/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4513,8 +4513,8 @@ export const pictureNatGeo = {
                 logo: "/F98779EF616109C7B1286B1FC335B0018833BB9AAD9556AAB1DA4F6857BD7571/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/20C4BF4239B6EE3AED34C011213C7BC45F6D4D5226E8C307F0F34F25C09EDEE3/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/A6793EADB288E37FD7E47E6055739746047F406A8B007EA78BE007CEA5ACB88F/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4527,8 +4527,8 @@ export const pictureNatGeo = {
                 logo: "/982C5F665C5C72F76DABEC2FE2BA9261C7703C84D2EB46F0EBF1AA0D011A23FF/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/B378241759C7B3951293DD7E96627AEDECD17DDF61FA6C4C25B533062DD5AC6E/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/CC6C81E8274F94EAD719C7A88E468EE2458EE8698691FA0198CA692EF6BA5819/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4541,8 +4541,8 @@ export const pictureNatGeo = {
                 logo: "/E4D3B3C2222AE9A39CDE1A275D568617853A954F9CAA5478F7A32AF46473E2EB/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/30B68D93EC09F373DC04BF385D2DC6EB7B98244C96B816088493BA0049C0BA46/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/0EBB20161B6F7EFBE4521E2BDB73355175D97CB0DCAE2CBC7DF654D91BF53A6F/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4555,8 +4555,8 @@ export const pictureNatGeo = {
                 logo: "/B61A5CE2E6FCBECDBC2397B5CF8833FBF45D1BC8C05C919744D79D504AB80043/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/54BB5E299C347A73BB1480FA51EFA9919B56FFBD5F150C6A47E72BD5D5CD1680/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/1220CC02B5271BFAEF8182F160A44073A5A7D87C7AE86E3A46B729DB3E2744DB/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4569,8 +4569,8 @@ export const pictureNatGeo = {
                 logo: "/89AC77AEFF453AB773B8631062EBBD13C03BDD560043C19DAFC5C97AB6F767A4/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/9AC654140D8A98B1EBD1D9AEFBA5C784341E0888BD596495FE802E2FC3997D3B/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/A5A4AA53A8BF5FFF816E20DE08D703DF26DA3D966FFD198E572EE4D84B93095D/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4583,8 +4583,8 @@ export const pictureNatGeo = {
                 logo: "/22493593F2B6A4F7805C863B4D8A5333E35E0AD3314D542C835D5D956C6E3979/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/BE5718A11DD416BC913B8E57B94690CB9636CA924C9C56C6E573C5A1AEC610E9/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/22493593F2B6A4F7805C863B4D8A5333E35E0AD3314D542C835D5D956C6E3979/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4597,8 +4597,8 @@ export const pictureNatGeo = {
                 logo: "/D1DF80724B5021CEAFC4B28250798639A1B88C20E1009440994E99FA45170D41/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/BF225CCB164B1B1EBAB8F3F47B611B2DF55A3EF190DD5FE90B40E19E20B1B36F/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/1C3C92D023FBAA499AE5FE837C0BD53E4747C0CAACCDAB0C6C2487C343B1F0E6/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4611,8 +4611,8 @@ export const pictureNatGeo = {
                 logo: "/1E0897F439C369FB00BE996F9C476780E001F79BDC358215D7F49047217CBF8A/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/B45BA954E28C9CB55CB3D42125576113D6CA3D39E3593342DCBFCFC01CE8EA17/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/FC007A5EA07ABBEBC18DB34760E9D09102DB3097B2320B3BA3FA52C97A1A5D31/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4625,8 +4625,8 @@ export const pictureNatGeo = {
                 logo: "/AC0842A6C5A0C4E6B15E9DBB6ABCC3763C6F11EA1756BA0432FCF639259CBC4F/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/284C62EEB4A7E8B682DC245492B4918C346AD405AA7D2AE071BF64E116BEFAD0/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/FAAAEB5579FD738A87834130B727FA4F360A0CBD5680FE418A2B4CABEBD171A2/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4639,8 +4639,8 @@ export const pictureNatGeo = {
                 logo: "/70849B77396B4BC2F8C3216B7123D36E26FF207F226EF5441F10DBD8A90008F1/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/7E36E81DE65429FA224499C7BA9F78EECF926396AECAA44210760D1E72E692E4/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/70849B77396B4BC2F8C3216B7123D36E26FF207F226EF5441F10DBD8A90008F1/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4653,8 +4653,8 @@ export const pictureNatGeo = {
                 logo: "/28498411075B65980325E6EFBD59B865282FF8C473AA583DE085672D3C0260DD/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/86373A66A990F37CD755BAC465866CCF5EABCED93DFF294C5E11B74417BC368C/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/28498411075B65980325E6EFBD59B865282FF8C473AA583DE085672D3C0260DD/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4667,8 +4667,8 @@ export const pictureNatGeo = {
                 logo: "/03F82CD7FC4B359B6E753045915BBE2A51E7267DD691D8FAA0EFE4507BAB9FAF/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/9015A431D644FEC0575B997ED2C0EC773695A9A91CD0160A37EDBE22AD6FD941/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/03F82CD7FC4B359B6E753045915BBE2A51E7267DD691D8FAA0EFE4507BAB9FAF/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4681,8 +4681,8 @@ export const pictureNatGeo = {
                 logo: "/3024CB33F9BD86B2CD78CA7492B5C35BF4785D6677624315BBFDDA8AF28EC930/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/EDD868CFDA265E7B7EF8E468FCAA93DD0E315AB0B99A572A0D27BDBC744545DF/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/2EFF7D08AE6ADB2F89D2C6A734A0031D5694175808A324E81FF77CD270C79786/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4695,8 +4695,8 @@ export const pictureNatGeo = {
                 logo: "/8C1A540A097E2D73453FE149ACAE35391E985BA86B0BD3D5306113F89A77A9D3/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/63130D2F8556499F3D475A606B10954AC1F79BCD177CC10CF9291B0581F1DA6D/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/0671996CF8E4F3674D2E0EFEABDA2E806DE236ABDC88D67D9992517FCA1F501E/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4709,8 +4709,8 @@ export const pictureNatGeo = {
                 logo: "/1EDAC3C690DF96F10FDC8F9679CFD7CB987D3B1181F93AF0DB1238F712845E58/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/FD88B3BD8CEEC81583D1E3A0DA014C2DD618AC6E6002DB2AB23BC62A4EDCEEF2/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/7DC5730B0B4692470A6C4019F6117AA9D8E6D1F23A14B35212600467481EEAE4/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4723,8 +4723,8 @@ export const pictureNatGeo = {
                 logo: "/D51A61FB665775783AFCB7B491C8032F9FD84DF174EDE46243262F3E28692728/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/03D4B45275F3870FD6074FFD1F34E690C530E3DF1C8962883E37DE2383A01106/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/D51A61FB665775783AFCB7B491C8032F9FD84DF174EDE46243262F3E28692728/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4737,8 +4737,8 @@ export const pictureNatGeo = {
                 logo: "/5EACA0E1AC899A895C24B44BD84CA3D15D48CFC1F35B4D7A33A7B3920491E4C7/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/B069E4A81ED86C0F75E54276CB0EADE4518A4B2E4AFE9916A55886174F7FDDED/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/DB6A8D401BE76565A246049A61B3DB6786460D9ADF06B1D3FE015BA9B9487B0B/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4751,8 +4751,8 @@ export const pictureNatGeo = {
                 logo: "/D6529402C04022BBB2572ABDA27557C1B9DBCE12A9763A3044C974D15B1668A6/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/D0806627945C9D465F0B011A88EFC1B2F1FEDE635F73314BB1D5230ECBC714B5/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/D6529402C04022BBB2572ABDA27557C1B9DBCE12A9763A3044C974D15B1668A6/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4765,8 +4765,8 @@ export const pictureNatGeo = {
                 logo: "/93A3C68A2751BB0766EE77C74C743F24F1C08E51BEC21B0AB9C47D2903622538/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/DE5F5AD5215C29D23829DE7A320D624DFC2AA1E4C988B771966B5003F0F306E0/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/93A3C68A2751BB0766EE77C74C743F24F1C08E51BEC21B0AB9C47D2903622538/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4779,8 +4779,8 @@ export const pictureNatGeo = {
                 logo: "/E1547F38F178C29B0373C221B190EED85446BD6A839CC6659C221B261AD3B121/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/4F66CF558B11BB8E37F40F1550CB45374DC02D81C305D39AB2B45B90E3F68620/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/9C3025F90F2E854E2AD9D971AA6F36DE9DDF83E8B9BE11917C455381F4D8864A/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4793,8 +4793,8 @@ export const pictureNatGeo = {
                 logo: "/EF3B3F6E43A1E7A3A4D7827D40C60197B0BC448437684E9F6C9F2112BC9CCDE0/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/25701B754007818C72EC88B0382717E49694AB90610FA4B59A3957B36FB5608E/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/91002FB30F35DFEB80C0EF8F194869F19665F6F5406598BB9B13EAA5786EE4C3/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4807,8 +4807,8 @@ export const pictureNatGeo = {
                 logo: "/91CC6AB2E16D19FA8E6E329214FCEAEB2ABE0422BF9DA204C92C809F05DF9526/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/830C896BF8F534889E499C85132EAC6435BAA296D4BDB0EA25A11CF8F63D7B22/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/FA7645137603449193482621B13AB71FC223E1B00055FD53E3FE09F57FEC6DE5/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4821,8 +4821,8 @@ export const pictureNatGeo = {
                 logo: "/23A02411A279E6F322DB10D3D26E38B5345F314D72B58C9CF7613296C68835C3/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/FEF537245DD8436494A2CE83C05B08824DAE5FCE453189166DD934CF38C49E9A/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/23A02411A279E6F322DB10D3D26E38B5345F314D72B58C9CF7613296C68835C3/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4835,8 +4835,8 @@ export const pictureNatGeo = {
                 logo: "/5CF419866AA06DDDF3CC22AE1B01BB713658F21FD1077890A2C9619F021B3F71/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/EEF7747DD87E50303E91167698BA172385A2A45E1C6F1A12E27B7974E196D8C2/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/9111E3B9C9D8A5182B6F8EFA9D05844AFD21AC2C605A258EA52961CB10FABA6A/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4849,8 +4849,8 @@ export const pictureNatGeo = {
                 logo: "/4FE306378FC52D1683371DB75FBB00428C8E6FAF98FBD474FFD818A1450DEA04/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/DD8206325DA6040ED78F1EAAEA1679DD1BB9CB9023A7B8B8B7E2D5755C141FAC/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/8EEF771EB319FB26E302D70CD7C825C5AF2D39B79267F9D737D70279A415A261/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4863,8 +4863,8 @@ export const pictureNatGeo = {
                 logo: "/1E16DECCA4906480ED8CC6020E61A39ADE6DEAA6693E49A41C36C50C74DFCF75/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/9B57CCFCB035E2C763AA64B52AFFAEEEADD75488619A6257877A2AE443CA1A2A/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/264F5EC7074EE820671FD31367F5AB3353E8F168AF9BBF310DBA21F88A5A9542/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4877,8 +4877,8 @@ export const pictureNatGeo = {
                 logo: "/199E10F1396D46BBA4AFD6708A89E33B7B22BC948AD0EF383EED147E4A0DD970/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/C131931D0B22AE66DCF277BF993B5E987871E95C06576434FA8545AE56571A4C/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/8E490C1715D6C69CFC6C6F19654E12730268F5F99AA33C1E654A512635092B96/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4891,8 +4891,8 @@ export const pictureNatGeo = {
                 logo: "/5CF95310E7D48D86ACB391B5E866F5613BCA23D5157628FCABEA108E0DB23266/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/634456990E1A0CEE3C9243999C4881D1CBE2A01DE7B878A661F7A26D83089B8A/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/5CF95310E7D48D86ACB391B5E866F5613BCA23D5157628FCABEA108E0DB23266/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4905,8 +4905,8 @@ export const pictureNatGeo = {
                 logo: "/243DD48E177D3D113D9F8BDBDF8C360D8CCD476902A27672628C155B6AA81457/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/5FF8F4F8032F70DB0B9BD2178F5E4AB7345EB50C61D18445AB25F8A5363333CD/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/FF50806E926B2F91EDAD8B67A37A969D6E924B2D317E0674F65304DEEE14ACA7/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4919,8 +4919,8 @@ export const pictureNatGeo = {
                 logo: "/68DABD7DB5B24CF8A9598770E6302EBB5CCE058C3E3036FCA4D612B0FB435B58/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/71A31BA193A72EF70BE894E8C6187B279CC9C3F1DCB28213B291512C4287200D/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/8816CD841C14FFF7B385F744B23F2A02062496C1E5FC89A0B081EE3B11F6C41F/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4933,8 +4933,8 @@ export const pictureNatGeo = {
                 logo: "/F74D6FCA7004BA8E296F4F8BC89C5433BA3C57A381DDBAF0F90070692F70B455/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/C1B0395C734AB1DF18546A0E27B681676538255A1C60C57A9F844A85D47690C5/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/01603D5E94B83436657B431AA9879637CD78D6FF3703332563F65255451583F7/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4947,8 +4947,8 @@ export const pictureNatGeo = {
                 logo: "/EABAE1074E86F99E96FC23C42C744AC822EB0855A32F1F9099B5EEAC54BEB215/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/F1BE884D8AE094E4534C47DA4E93A53EBBE536B992500AB3E95AD04AE8EA8DF8/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/622079C09BB18E84498BCBFA5B9BD8C1DD5FE2A65C87AFDB6947E43172C59844/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4961,8 +4961,8 @@ export const pictureNatGeo = {
                 logo: "/D08A3867923374E10A1EE2427C0D5A94C66B42ED8D2D836608354E2ECA8FA035/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/B472685979B1A877DAA830805E5F3054749E0F9CFAEC79CB2BED7859204B228C/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/C7FA097A8949A1F709B7DFB3706A149B450044A5CF16C37EE64B5A65526F9CEF/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4975,8 +4975,8 @@ export const pictureNatGeo = {
                 logo: "/0595F4DB2F8A6A184E2E179AA983CC88871BD7C2974325B3818E2D7F38F32698/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/A1C9FF65F2C3D7A9C70E40B23A6DCC982F02BF4206B626C6B6EB92CACD48F61B/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/CBEE44A18FC9C79935FB714DC6D21192C1F5128289ED05E1E13B0AE7B775D0F1/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -4989,8 +4989,8 @@ export const pictureNatGeo = {
                 logo: "/E755CD5AF073A7C96F51B7882EE17D14ED0548D51A245EE77A16E4A816B486B5/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/43198EE2115E9DF271A80A11D43844FA3F8F2F2428653A0BCAE3125F1C428402/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/B421A74D8B216A85BE479B0C628334F3CDB964E0D55F93C945F6AB8738ABD00D/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5003,8 +5003,8 @@ export const pictureNatGeo = {
                 logo: "/43306E59475B4E71CA8BE5B259465B25CDDC82F66B911F0A52219A5D4AFE37D2/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/697F6946B1F20DA7F3C9DE3EC98D7B6880FD80DE6AE6259805D20AAFECC56601/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/0B9CEC53282CBEA1FB45EA41BB5699DE0D8EF00CC86BB9564D96864FD6D8BBFF/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5017,8 +5017,8 @@ export const pictureNatGeo = {
                 logo: "/4806CD99A9DA96CB33C347EEEBC1D6A0B551138B77FE7ABFD00785DFAD2F6E56/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/E9F13460AF31CFF99DA416C29FFC2363C6F40441A71965A71797F389AD4F5353/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/84601B1C8EB2D2B3F17925548BBB56E45B5CD127D75224C4C9467829B242D316/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5031,8 +5031,8 @@ export const pictureNatGeo = {
                 logo: "/AC5FE133385445E443EF3B70E54AFD486BB101BA97E6F1FD3DF9CFE032C48B3E/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/41A42DE1D88A5896904B5B4389F0FD04701138341AD8C380594B60050B1B93E8/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/51BBAF9538DFF94C03ED7D5923694A7CEB3115A575C2951B51B49F52B3FAA702/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5045,8 +5045,8 @@ export const pictureNatGeo = {
                 logo: "/A64CD4966C2BCD5AD95455F1842245C550F707C740C0513886A23A6D8BC05F5C/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/64128BD815DBC349BAA7384613124DF00956B670B5D1A878A27F306D1ABF7FC0/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/A1371230856BAC7C7994DE94A1E108DFEFBA844EAF20F1EF904BE84A6DE45054/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5059,8 +5059,8 @@ export const pictureNatGeo = {
                 logo: "/3CAFE87269284119630FF33DE1728BE5BE8007BAD7B0CAFD1B44794B3ABFE947/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/2456E561475FD6CDFD22FB86BDC2288C22AAF4E7544EEF57D28FECB171B75F88/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/41A306930F107540E0B12335A08D68DE4FC9BA765F82EE5B03CACFBD5AF2D825/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5073,8 +5073,8 @@ export const pictureNatGeo = {
                 logo: "/4C40EDF9C92BEE5D261DD1E40696C3DF342F8BA271F3FE0D2D415DB3BADA8D3A/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/CD2E925188B8426CB3163A29D616BA24B5FDE87518A9D036A2981464D16CDD77/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/4C40EDF9C92BEE5D261DD1E40696C3DF342F8BA271F3FE0D2D415DB3BADA8D3A/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5087,8 +5087,8 @@ export const pictureNatGeo = {
                 logo: "/872F94F4F1BC3BBBBBF12E934901BCA1BEEF118AB94184819D453FF48A94475E/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/B789407D4065F7C29E7C52C909BDF50F3C26E5ADD04AA215CF73F739DFA63D2A/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/9F0E05EA56CC94C5DD479F4CF316918CB6F3C75ED6BDA0D28A07C3383937C6E1/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5101,8 +5101,8 @@ export const pictureNatGeo = {
                 logo: "/4B1FA6C9C55EB4346FFDBD2772FCA82BDECE8F2109D3C7BFBB4322CC8EE655B9/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/BC4C0521CF2BD1E32D17E73BE73BB14608E1A520947BD6F04AA53F9FCFA02915/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/EC67A93A45A6EF247F481C4A54F9C2A7B5577194E2F421D8F05F260604E069E7/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5115,8 +5115,8 @@ export const pictureNatGeo = {
                 logo: "/ECAF6E4BC3C4CA62524EF4C605EDF320CD2F8EBFC4BA08141FEFB65CBBD1452D/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/17C7C7B0A0E8C1D409ABBE766AD9CE44B346CA9E9461B023A58F0B5CF09877CA/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/1FECA9F57DB67D81475E626EEC88C940AD03513070855F009D47481F7493B2E1/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5129,8 +5129,8 @@ export const pictureNatGeo = {
                 logo: "/7B3C3A7D6350B179F8C8ED80F31222DA254A1D324D8BDB4FF7E6A689350C9AE1/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/DBC409D12F2E57321D706D5D8A91E31914FA1E9939D33BE0F2C1AB8D53E97F92/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/F521EC359AB9ADC6AC9D24B9C1E186669BD6C1D7BDED11A16E16CB2C2A00BEBF/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5143,8 +5143,8 @@ export const pictureNatGeo = {
                 logo: "/AE52D2637A5E3A5E32BFE509CDF25A09E1777E62147CE5D81AF086B87810E4E6/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/DB42F3BCBB0D2E5793DB5CB1E0F039D5C79E77C7EDBD2AEB45A612771A380329/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/AE52D2637A5E3A5E32BFE509CDF25A09E1777E62147CE5D81AF086B87810E4E6/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",
@@ -5157,8 +5157,8 @@ export const pictureNatGeo = {
                 logo: "/BA1159A4EE49F891E371C8C7D850C0CD4A61E55930EEA527F4B35880DB0A3A15/scale?width=1440&aspectRatio=1.78&format=png",
             },
             {
-                poster: "",
-                logo: "",
+                poster: "/DA98F8EE5A858C3045E46B185DD83924747B2138E4CF1D0CCCB002343436B7EE/scale?width=500&aspectRatio=1.78&format=jpeg",
+                logo: "/825CBEAD603218BFA0C0AC6626A3C6B486F19BAB3955A10CB2AA36D07F109031/scale?width=1440&aspectRatio=1.78&format=png",
             },
         ],
         inBrand: "NatGeo",

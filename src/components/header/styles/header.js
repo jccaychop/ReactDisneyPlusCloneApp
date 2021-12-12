@@ -31,6 +31,15 @@ export const Container = styled.header`
             animation: fadeIn 500ms linear;
         }
     `}
+
+    ${({ viewport }) => (viewport?.y < -50) && `
+        background-color: var(--black-1);
+
+        picture > img{
+            display: block;
+            animation: fadeIn 500ms linear;
+        }
+    `}
 `;
 
 export const Picture = styled.picture`
@@ -95,4 +104,8 @@ export const Group = styled.div`
 
 export const Account = styled.div`
     width: 240px;
+`;
+
+export const LogoLink = styled(ReactRouterLink)`
+
 `;

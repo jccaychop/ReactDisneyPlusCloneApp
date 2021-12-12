@@ -5,12 +5,14 @@ import './styles/myTabs.css';
 import DetailContainer from './detail';
 import SeasonContainer from './season';
 
-const TabContainer = ({ dataUsed, mediaTYPE, langSelected }) => {
+const TabContainer = ({ dataUsed, mediaTYPE, langSelected, siteData }) => {
 
     const [select, setSelect] = useState({
         key: "",
         value: false,
     });
+
+    const { media: { tabs: { episode, suggestions, extra, detail } } } = siteData;
 
     const onSelect = (key) => {
         setSelect({
@@ -22,10 +24,10 @@ const TabContainer = ({ dataUsed, mediaTYPE, langSelected }) => {
     return (
         <Tabs>
             <TabList>
-                {(mediaTYPE === "series") && (<Tab>EPISODIOS</Tab>)}
-                <Tab>SUGERENCIAS</Tab>
-                <Tab>EXTRAS</Tab>
-                <Tab>DETALLES</Tab>
+                {(mediaTYPE === "series") && (<Tab>{episode.toUpperCase()}</Tab>)}
+                <Tab>{suggestions.toUpperCase()}</Tab>
+                <Tab>{extra.toUpperCase()}</Tab>
+                <Tab>{detail.toUpperCase()}</Tab>
             </TabList>
 
             {/* EPISODES */}
@@ -91,7 +93,7 @@ const TabContainer = ({ dataUsed, mediaTYPE, langSelected }) => {
 
             {/* DETAILS */}
             <TabPanel>
-                <DetailContainer dataUsed={dataUsed} mediaTYPE={mediaTYPE} langSelected={langSelected} />
+                <DetailContainer dataUsed={dataUsed} mediaTYPE={mediaTYPE} langSelected={langSelected} siteData={siteData} />
             </TabPanel>
         </Tabs>
     )

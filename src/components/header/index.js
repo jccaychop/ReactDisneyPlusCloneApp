@@ -1,5 +1,5 @@
 import React from 'react';
-import { Account, Container, Group, Navbar, NavbarGroup, NavbarItem, NavLink, Picture, Span } from './styles/header';
+import { Account, Container, Group, LogoLink, Navbar, NavbarGroup, NavbarItem, NavLink, Picture, Span } from './styles/header';
 
 const Header = ({ children, ...restProps }) => {
     return (
@@ -41,4 +41,8 @@ Header.Group = function HeaderGroup({ children, ...restProps }) {
 
 Header.Account = function HeaderAccount({ children, ...restProps }) {
     return <Account {...restProps}>{children}</Account>
+};
+
+Header.LogoLink = function HeaderLogoLink({ children, ...restProps }) {
+    return <LogoLink {...restProps}>{children}</LogoLink>
 };

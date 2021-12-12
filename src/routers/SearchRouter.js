@@ -1,30 +1,23 @@
 import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { Redirect } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import { ButtonLoginV1, ButtonSignUpV1, Header } from '../components';
+import { Search } from '../pages';
 import HeaderContainer from '../containers/header';
-import { firebaseLogout } from '../firebase/authFirebase';
 import { useScroll } from '../hooks/useScroll';
-import { siteContent } from './../utils/siteContent';
+import { siteContent } from '../utils/siteContent';
 
-const Home = ({ isAuthenticated }) => {
+const SearchRouter = () => {
 
     const langSelected = useSelector(state => state.lang.language);
-
-    const dispatch = useDispatch();
-
     const siteData = langSelected === 'es-MX' ? siteContent[0] : siteContent[1];
+    const brandContent = useSelector(state => state.brand.brandList);
     const { buttons } = siteData;
-
     const [viewport] = useScroll();
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-
-    if (!isAuthenticated) {
-        return <Redirect to="/" />
-    };
 
     return (
         <>
@@ -34,12 +27,20 @@ const Home = ({ isAuthenticated }) => {
                         (viewport.y < -50) && <ButtonSignUpV1 to={"/signup"} viewportbrand={viewport} className="animate__animated animate__fadeIn">{buttons['signup']}</ButtonSignUpV1>
                     }
                     <ButtonLoginV1 to={"/login"}>{buttons['login']}</ButtonLoginV1>
-                    <button onClick={() => { dispatch(firebaseLogout()) }}>CERRAR</button>
                 </Header.Group>
             </HeaderContainer>
-            HOME PAGE
+
+            <Switch>
+                <Route path="/search">
+                    <Search
+                        langSelected={langSelected}
+                        siteData={siteData}
+                        brandContent={brandContent}
+                    />
+                </Route>
+            </Switch>
         </>
     )
 }
 
-export default Home;
+export default SearchRouter

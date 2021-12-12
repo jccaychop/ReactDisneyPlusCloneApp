@@ -32,11 +32,13 @@ const MoviesRouter = () => {
             </HeaderContainer>
 
             <Switch>
-                {/* <Route path="/:mediaTYPE/:mediaID" component={Media} /> */}
                 <Route path="/:mediaTYPE/:mediaID">
                     <Media viewport={viewport} />
                 </Route>
-                <Route exact path="/movies" component={Movies} />
+
+                <Route exact path="/movies">
+                    <Movies siteData={siteData} />
+                </Route>
             </Switch>
         </>
     )
